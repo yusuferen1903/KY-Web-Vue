@@ -75,7 +75,7 @@
             </div>
 
             <div style="padding-left: 25px; padding-right: 25px;">
-              <a href="favori-urunlerimiz.html" class="kirmizibuton">
+              <a href="/Favori-urunlerimiz" class="kirmizibuton">
                 <svg width="40px" height="40px" style="vertical-align: middle;">
                   <image
                     x="0px"
