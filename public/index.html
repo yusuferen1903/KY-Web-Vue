@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>vuedeneme</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but vuedeneme doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("Slide");
+    if (n > x.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = x.length }
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex - 1].style.display = "block";
+  }
+</script>
+<script>
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+  < li v-for="item in sliderData" >
+    <a href="item.url">
+      <img src="item.image" alt="item.title" />
+    </a>
+  </li >
+  var app2 = new Vue({
+    el: '#app2',
+    data: {
+      sliderIndex: 0,
+      sliderMargin: 500,
+      sliderData: [
+        { title: "Slider 1.resim", image: "https://kofteciyusuf.com/uploads/pictures/saglikliet_19.09.2018_05_47_05.jpeg", url: "" },
+        { title: "Slider 2.resim", image: "https://kofteciyusuf.com/uploads/pictures/kariyer_01.05.2018_06_29_32.jpg", url: "" },
+        { title: "Slider 3.resim", image: "https://kofteciyusuf.com/uploads/pictures/web-haber-gorseli_28.08.2015_10_36_24.jpg", url: "" },
+        { title: "Slider 4.resim", image: "https://kofteciyusuf.com/uploads/pictures/facebook1432556099449-800-x-395_25.05.2015_01_37_26.jpg", url: "" },
+        { title: "Slider 5.resim", image: "https://kofteciyusuf.com/uploads/pictures/dsc2223-800-x-500_22.05.2015_11_31_07.jpg", url: "" },
+
+      ]
+    },
+    created() {
+      this.startSlider();
+    },
+    methods: {
+      startSlider() {
+        const vue = this;
+        setInterval(function () {
+          if (vue.sliderIndex === vue.sliderData.length - 1)
+            vue.sliderIndex = 0;
+          else
+            vue.sliderIndex = vue.sliderIndex + 1;
+
+        }, 3000);
+      }
+    }
+  })
+</script>
+
+</html>
