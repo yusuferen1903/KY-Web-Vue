@@ -10,7 +10,7 @@
             </h3>
             <ul class="kategori-list duzen gorunus">
                 <li class>
-                    <a href="cig-urunler.html">
+                    <a href="/CigUrunler">
                         Çiğ Ürünler
                     </a>
                     <i>
@@ -21,7 +21,7 @@
                     </i>
                 </li>
                 <li class>
-                    <a href="izgara-etler.html">
+                    <a href="/izgara-etler">
                         Izgara Etler
                     </a>
                     <i>
@@ -32,7 +32,7 @@
                     </i>
                 </li>
                 <li class>
-                    <a href="kahvalti-ve-yan-urunler.html">
+                    <a href="/KahvaltiveYan">
                         Kahvaltı ve Yan Ürünler
                     </a>
                     <i>
@@ -43,7 +43,7 @@
                     </i>
                 </li>
                 <li class>
-                    <a href="doner.html">
+                    <a href="/Doner">
                         Döner
                     </a>
                     <i>
@@ -388,9 +388,7 @@ svg {
 .resim-boyut {
     margin-top: 30px;   
 }
-.d-block{
-    block: block !important;
-}
+
 a{
     color: #fa9628;
     text-decoration: none;

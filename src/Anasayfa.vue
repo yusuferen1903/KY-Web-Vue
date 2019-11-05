@@ -1,10 +1,12 @@
 <template>
   <div>
+    <Header />
     <slide />
     <butonlar />
     <body1 />
     <body2 />
     <body3 />
+    <Footer />
   </div>
 </template>
 
@@ -14,14 +16,18 @@ import butonlar from "./components/butonlar.vue";
 import body1 from "./components/body1.vue";
 import body2 from "./components/body2.vue";
 import body3 from "./components/body3.vue";
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "app",
   components: {
+    Header,
     slide,
     butonlar,
     body1,
     body2,
-    body3
+    body3,
+    Footer
   }
 };
 </script>

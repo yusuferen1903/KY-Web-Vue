@@ -73,13 +73,19 @@
               class="bizdenhaberler"
             >BİZDEN HABERLER</a>
             <div id="app2">
-              <ul :style="{marginTop:'-'+sliderIndex*sliderMargin+'px'}">
-                <!--      <li v-for="item in sliderData">
+              <!-- <ul :style="{marginTop:'-'+sliderIndex*sliderMargin+'px'}">
+                      <li v-for="item in sliderData">
                   <a :href="item.url">
                     <img :src="item.image" :alt="item.title" />
                   </a>
-                </li>-->
-              </ul>
+                </li>
+              </ul>-->
+              <a href="blog.html" class="d-block">
+                <img
+                  src="https://kofteciyusuf.com/uploads/pictures/saglikliet_19.09.2018_05_47_05.jpeg"
+                  class="sagresim"
+                />
+              </a>
             </div>
           </div>
 
@@ -105,34 +111,10 @@
   </div>
 </template>
 
-<style scoped>
-#app2 {
-  float: left;
-  width: 100%;
-  height: 500px;
-  overflow: hidden;
-  width: 370px;
-  height: 370px;
-}
-#app2 ul {
-  position: relative;
-  width: 500px;
-  height: 500px;
-  transition: margin-top 0.9s;
-}
-#app2 li {
-  list-style: none;
-  float: left;
-  width: 100%;
-  height: 500px;
-  margin-left: -50px;
-}
-#app2 li img {
-  float: left;
-  width: 76%;
-  height: 312px;
-}
+<script>
+</script>
 
+<style scoped>
 .sagresim {
   max-width: 100%;
   height: auto;
