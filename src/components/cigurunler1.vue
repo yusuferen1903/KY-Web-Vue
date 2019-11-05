@@ -117,12 +117,12 @@
                 <div class="kolonlar2 kolon-boyut">
                     <form class="urun-list resim-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kofte_26.09.2019_01_30_09.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_yusuf-kofte_27.07.2019_08_16_05.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius: 0 0 20px 20px;">
                             <h3 class="h3yazilar">Köfte</h3>
-                            <span class="d-block">200 GR KÖFTE</span>
-                            <em class="d-block">16.00 TL</em>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">40.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -130,12 +130,12 @@
                 <div class="kolonlar2 kolon-boyut">
                     <form class="urun-list kolon-boyut" style="margin-top: 30px;">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_sucuk_26.09.2019_04_11_19.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kasap-sucuk_23.09.2019_07_09_27.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Sucuk</h3>
-                            <span class="d-block">200 GR SUCUK</span>
-                            <em class="d-block">16.00 TL</em>
+                            <h3 class="h3yazilar">Kasap Sucuk</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">44.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -143,12 +143,12 @@
                 <div class="kolonlar2 kolon-boyut">
                     <form class="urun-list kolon-boyut" style="margin-top: 30px;">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_tavuk-incik_26.09.2019_01_30_31.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_baton-sucuk_27.09.2019_11_41_50.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Piliç İncik</h3>
-                            <span class="d-block">200 GR PİLİÇ İNCİK</span>
-                            <em class="d-block">12.00 TL</em>
+                            <h3 class="h3yazilar">Baton Sucuk</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">44.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -156,12 +156,12 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top: 475px; margin-left: -960px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_tavuk-kanat_26.09.2019_04_37_52.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kiyma_27.07.2019_11_48_45.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Piliç Kanat</h3>
-                            <span class="d-block">200 GR PİLİÇ KANAT</span>
-                            <em class="d-block">12.00 TL</em>
+                            <h3 class="h3yazilar">Dana Kıyma</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">42.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -169,12 +169,12 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top:475px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kofte-ekmek_26.09.2019_05_43_48.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kusbasi_27.07.2019_12_31_07.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Ekmek Arası</h3>
-                            <span class="d-block">200 GR KÖFTE EKMEK ARASI</span>
-                            <em class="d-block">15.00 TL</em>
+                            <h3 class="h3yazilar">Dana Kuşbaşı</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">46.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -182,12 +182,12 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top:475px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kofte-sucuk_26.09.2019_04_07_10.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Köfte Sucuk Karışık</h3>
-                            <span class="d-block">200 GR KÖFTE SUCUK</span>
-                            <em class="d-block">16.00 TL</em>
+                            <h3 class="h3yazilar">Dana Bonfile</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">96.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -195,12 +195,12 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top:915px; margin-left:-960px">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kofte-sucuk-tavuk_26.09.2019_04_10_42.jpg" alt class="img-fluid">						
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/screen-shot-2015-05-18-at-175641_18_thumb.jpg" alt class="img-fluid">						
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Köfte Sucuk Piliç Karışık</h3>
-                            <span class="d-block">200 GR KÖFTE SUCUK PİLİÇ</span>
-                            <em class="d-block">16.00 TL</em>
+                            <h3 class="h3yazilar">Dana Biftek/<br>Dana Kontrafile</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">32.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -208,12 +208,12 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top:915px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kofte-et-karisik_26.09.2019_04_09_12.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_tavuk-kanat-soslu_23.09.2019_06_00_03.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar" >Köfte Et Karışık</h3>
-                            <span class="d-block">200 GR KARIŞIK</span>
-                            <em class="d-block">20.00 TL</em>
+                            <h3 class="h3yazilar" >Piliç Kanat Soslu</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">32.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -221,12 +221,12 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top:915px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-sis_26.09.2019_04_37_18.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/pirzola_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Şiş</h3>
-                            <span class="d-block">200 GR KUZU ŞİŞ</span>
-                            <em class="d-block">20.00 TL</em>
+                            <h3 class="h3yazilar">Kuzu Pirzola</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">84.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -234,12 +234,26 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top:1360px; margin-left:-960px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_beyti_26.09.2019_04_42_38.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/kuzusis_21_thumb.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu Şiş</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">64.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kolonlar2 kolon-boyut" style="margin-top:1360px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/beyti_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
                             <h3 class="h3yazilar">Kuzu Beyti</h3>
-                            <span class="d-block">200 GR BEYTİ</span>
-                            <em class="d-block">20.00 TL</em>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">64.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -248,26 +262,12 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top:1360px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kul-basti_26.09.2019_05_36_59.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-antrikot_27.07.2019_12_51_33.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Külbastı</h3>
-                            <span class="d-block">200 GR KÜLBASTI</span>
-                            <em class="d-block">20.00 TL</em>
-                            <button type="button" class="kucuk-buton">SATIN AL</button>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="kolonlar2 kolon-boyut" style="margin-top:1360px;">
-                    <form class="urun-list kolon-boyut">
-                        <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_pirzola_26.09.2019_01_40_20.jpg" alt class="img-fluid">
-                        </a>
-                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Pirzola</h3>
-                            <span class="d-block">200 GR PIRZOLA. 3 AD.</span>
-                            <em class="d-block">20.00 TL</em>
+                            <h3 class="h3yazilar">Dana Antrikot</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">66.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -276,44 +276,300 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top:1805px; margin-left:-960px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_bobrek_26.09.2019_05_24_50.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-nuar_03.10.2019_04_36_26.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Dana Nuar</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">46.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                  <div class="kolonlar2 kolon-boyut" style="margin-top:1805px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kavurma_27.07.2019_01_29_58.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Dana Kavurma</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">78.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                  <div class="kolonlar2 kolon-boyut" style="margin-top:1805px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-tranc_23.09.2019_06_59_49.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Dana Tranç</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">46.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                   <div class="kolonlar2 kolon-boyut" style="margin-top:2250px; margin-left:-960px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kiyma_30.09.2019_08_12_10.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kıyma /(Çiğ Köftelik)</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">38.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                   <div class="kolonlar2 kolon-boyut" style="margin-top:2250px; ">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/dana-kaburga_20_thumb.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Dana Kaburga</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">38.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                   <div class="kolonlar2 kolon-boyut" style="margin-top:2250px; ">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-kul-basti_23.09.2019_06_37_10.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu Külbastı</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">64.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                  <div class="kolonlar2 kolon-boyut" style="margin-top:2695px; margin-left:-960px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-incik_23.09.2019_06_40_54.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu İncik</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">46.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                  <div class="kolonlar2 kolon-boyut" style="margin-top:2695px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/screen-shot-2015-05-18-at-180241_18_thumb.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu But Kemikli</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">54.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                  <div class="kolonlar2 kolon-boyut" style="margin-top:2695px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-but-kemiksiz_24.09.2019_01_56_48.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu But Kemiksiz</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">64.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kolonlar2 kolon-boyut" style="margin-top:3145px; margin-left:-960px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-but-kemiksiz_24.09.2019_01_56_48.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu But Kemiksiz</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">64.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kolonlar2 kolon-boyut" style="margin-top:3145px; ">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/screen-shot-2015-05-18-at-180342_18_thumb.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu Kol Kemikli</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">50.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kolonlar2 kolon-boyut" style="margin-top:3145px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/kirmizi-et1_20_thumb.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu Döş Kemiksiz</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">64.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kolonlar2 kolon-boyut" style="margin-top:3590px; margin-left:-960px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/kuzu-bobrek_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
                             <h3 class="h3yazilar">Kuzu Böbrek</h3>
-                            <span class="d-block">200 GR BÖBREK</span>
-                            <em class="d-block">16.00 TL</em>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">42.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
                 </div>
 
-                  <div class="kolonlar2 kolon-boyut" style="margin-top:1805px;">
+                <div class="kolonlar2 kolon-boyut" style="margin-top:3590px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-antrikot_26.09.2019_04_40_57.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/kuzu-bobrek-yatagi-kemikli-_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Antrikot</h3>
-                            <span class="d-block">200 GR ANTRİKOT</span>
-                            <em class="d-block">20.00 TL</em>
+                            <h3 class="h3yazilar">Böbrek Yatağı Kemiksiz</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">80.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
                 </div>
 
-                  <div class="kolonlar2 kolon-boyut" style="margin-top:1805px;">
+                <div class="kolonlar2 kolon-boyut" style="margin-top:3590px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_bonfile_26.09.2019_05_11_42.jpg" alt class="img-fluid">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kiyma27072019114845_01.10.2019_05_57_39.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Bonfile</h3>
-                            <span class="d-block">200 GR BONFİLE</span>
-                            <em class="d-block">20.00 TL</em>
+                            <h3 class="h3yazilar">Kuzu Kıyma</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">64.00 TL/KG</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
                 </div>
+
+                
+                <div class="kolonlar2 kolon-boyut" style="margin-top:4035px; margin-left:-960px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-butun_03.10.2019_04_34_30.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu Bütün</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">46.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                
+                <div class="kolonlar2 kolon-boyut" style="margin-top:4035px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/screen-shot-2015-05-18-at-180106_18_thumb.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu Kuşbaşı Kemiksiz</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">64.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                
+                <div class="kolonlar2 kolon-boyut" style="margin-top:4035px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-gerdan_23.09.2019_06_05_02.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuzu Gerdan</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">40.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kolonlar2 kolon-boyut" style="margin-top:4480px; margin-left:-960px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/tavuk-incik-soslu_23_thumb.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Piliç İncik Soslu</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">32.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kolonlar2 kolon-boyut" style="margin-top:4480px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_pastirma_23.09.2019_06_16_39.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Pastırma</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">98.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="kolonlar2 kolon-boyut" style="margin-top:4480px;">
+                    <form class="urun-list kolon-boyut">
+                        <a href="./" class="d-block">
+                            <img src="https://kofteciyusuf.com/uploads/new_pictures/kuyrukyagi_21_thumb.jpg" alt class="img-fluid">
+                        </a>
+                        <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
+                            <h3 class="h3yazilar">Kuyruk Yağı</h3>
+                            <span class="d-block">1 Kilogram</span>
+                            <em class="d-block">50.00 TL/KG</em>
+                            <button type="button" class="kucuk-buton">SATIN AL</button>
+                        </div>
+                    </form>
+                </div>
+
                 
             </div>
         </div>
@@ -516,7 +772,7 @@ img{
     background-color: transparent;
 }
 .kucuk-buton {
-    border: 2px solid #fa9628;
+    border: 2px solid #e30613;
     border-radius: 15px;
     font-size: 14px;
     color: #818181;
@@ -526,14 +782,15 @@ img{
     display: inline-block;
     transition: all ease-in-out .1s;
     background-color: transparent;
+    cursor: pointer;
 }
 .kucuk-buton:hover{
-    background-color: #fa9628;
+    background-color: #e30613;
     color: #fff;
 }
 
 .uyariyazi {
-    background-color:#fa9628;
+    background-color:#e30613;
     border-radius: 20px;
     height:40px ;
     width: 560px;
@@ -543,7 +800,7 @@ img{
     font-size: 124%;
     text-align: center;
     padding-top: 8px;
-    color:rgb(68, 68, 68);
+    color:#ffff;
     
    
 }
