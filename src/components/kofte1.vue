@@ -100,6 +100,7 @@
                             34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
                 />
               </svg>
+              <!-- PATH İLE BELİRTİLENLER VEKTÖREL REİSİMLERİN ADRESLERİNİ VERİYOR-->
             </i>
           </li>
         </ul>
@@ -119,6 +120,7 @@
       </div>
       <div class="content-info">
         <div class="Koftesag">
+          <!-- Gramaj seçme olayı gerçekleştirildi-->
           <form>
             <div class="fiyatyazi yazitipi">
               <span class="fiyat">

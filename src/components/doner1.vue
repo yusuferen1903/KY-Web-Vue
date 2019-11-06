@@ -153,7 +153,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="kolonlar2 kolon-boyut" style="margin-top: 475px; margin-left: -960px;">
+                <div class="kolonlar2 kolon-boyut" style="margin-top: 475px; margin-left: -923px;">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_porsiyon-doner_27.09.2019_10_05_21.jpg" alt class="img-fluid">
