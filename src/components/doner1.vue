@@ -104,7 +104,7 @@
         </div>
         <div class="orta-kol-1">
             <h1 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">
-                Izgara Etler
+                Döner
             </h1>
             <div class="uyariyazi">
                 <h1 class="uyariyazi2"> 
