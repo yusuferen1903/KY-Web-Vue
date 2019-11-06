@@ -7,7 +7,7 @@
         <h3 class="tablo-cizgi baslik tablo-boyut tablo-genel">ÜRÜN KATEGORİLERİ</h3>
         <ul class="kategori-list duzen gorunus">
           <li class>
-            <a href="/CigUrunler">Çiğ Ürünler</a>
+            <a class="sabitle" href="/CigUrunler">Çiğ Ürünler</a>
             <i>
               <svg viewBox="0 0 320 512">
                 <path
@@ -19,7 +19,7 @@
             </i>
           </li>
           <li class>
-            <a class="sabitle" href="/izgara-etler">Izgara Etler</a>
+            <a href="/izgara-etler">Izgara Etler</a>
             <i>
               <svg viewBox="0 0 320 512">
                 <path
@@ -113,7 +113,9 @@
       <div class="content-image">
         <div class="koftediv3">
           <a href="./" title="Online sipariş sadece Bursa, Eskişehir ve Yalova için geçerlidir.">
-            <img src="https://kofteciyusuf.com/uploads/pictures/kofte_26.09.2019_01_30_09.jpg" />
+            <img
+              src="https://kofteciyusuf.com/uploads/pictures/yusuf-kofte_27.07.2019_08_16_05.jpg"
+            />
           </a>
         </div>
       </div>
@@ -123,33 +125,64 @@
             <div class="fiyatyazi yazitipi">
               <span class="fiyat">
                 Fiyat:
-                <i>16</i>
+                <i>40</i>
               </span>
               <span class="tl">TL</span>
             </div>
             <div class="gramsec yazitipi">
               <div class="gramsec2">
-                <label for="option">Gram Seçiniz</label>
-                <select name="option">
-                  <option value="19039">100 GR KÖFTE</option>
-                  <option value="19040">150 GR KÖFTE</option>
-                  <option value="19041" selected="selected">200 GR KÖFTE</option>
-                  <option value="19042">250 GR KÖFTE</option>
-                  <option value="19043">300 GR KÖFTE</option>
-                  <option value="19044">350 GR KÖFTE</option>
-                  <option value="19045">400 GR KÖFTE</option>
-                  <option value="19046">500 GR KÖFTE</option>
-                  <option value="19047">600 GR KÖFTE</option>
-                  <option value="19048">700 GR KÖFTE</option>
-                  <option value="19049">750 GR KÖFTE</option>
-                  <option value="19050">800 GR KÖFTE</option>
-                  <option value="19051">900 GR KÖFTE</option>
-                  <option value="19052">1000 GR KÖFTE</option>
+                <select name="gram" style="width: 236.81px; max-width: 100%;">
+                  <option value>Gram Seçiniz</option>
+                  <option value="200">200 Gram</option>
+                  <option value="300">300 Gram</option>
+                  <option value="400">400 Gram</option>
+                  <option value="500">500 Gram</option>
+                  <option value="600">600 Gram</option>
+                  <option value="700">700 Gram</option>
+                  <option value="800">800 Gram</option>
+                  <option value="900">900 Gram</option>
+                  <option value="1000" selected>1000 Gram</option>
+                  <option value="1100">1100 Gram</option>
+                  <option value="1200">1200 Gram</option>
+                  <option value="1300">1300 Gram</option>
+                  <option value="1400">1400 Gram</option>
+                  <option value="1500">1500 Gram</option>
+                  <option value="1600">1600 Gram</option>
+                  <option value="1700">1700 Gram</option>
+                  <option value="1800">1800 Gram</option>
+                  <option value="1900">1900 Gram</option>
+                  <option value="2000">2000 Gram</option>
+                  <option value="2100">2100 Gram</option>
+                  <option value="2200">2200 Gram</option>
+                  <option value="2300">2300 Gram</option>
+                  <option value="2400">2400 Gram</option>
+                  <option value="2500">2500 Gram</option>
+                  <option value="2600">2600 Gram</option>
+                  <option value="2700">2700 Gram</option>
+                  <option value="2800">2800 Gram</option>
+                  <option value="2900">2900 Gram</option>
+                  <option value="3000">3000 Gram</option>
+                  <option value="3100">3100 Gram</option>
+                  <option value="3200">3200 Gram</option>
+                  <option value="3300">3300 Gram</option>
+                  <option value="3400">3400 Gram</option>
+                  <option value="3500">3500 Gram</option>
+                  <option value="3600">3600 Gram</option>
+                  <option value="3700">3700 Gram</option>
+                  <option value="3800">3800 Gram</option>
+                  <option value="3900">3900 Gram</option>
+                  <option value="4000">4000 Gram</option>
+                  <option value="4100">4100 Gram</option>
+                  <option value="4200">4200 Gram</option>
+                  <option value="4300">4300 Gram</option>
+                  <option value="4400">4400 Gram</option>
+                  <option value="4500">4500 Gram</option>
+                  <option value="4600">4600 Gram</option>
+                  <option value="4700">4700 Gram</option>
+                  <option value="4800">4800 Gram</option>
+                  <option value="4900">4900 Gram</option>
+                  <option value="5000">5000 Gram</option>
                 </select>
-              </div>
-              <div class="gramsec2">
-                <label for="adetporsiyon">Adet/Porsiyon</label>
-                <input type="number" name="number" min="1" placeholder="Adet/Porsiyon" />
               </div>
             </div>
             <div class="hemenekle yazitipi">
@@ -204,6 +237,7 @@
   position: relative;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 40px;
 }
 .content-image {
   float: left;

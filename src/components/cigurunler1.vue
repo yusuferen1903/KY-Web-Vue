@@ -116,7 +116,7 @@
             <div class=" satir tablo-boyut">
                 <div class="kolonlar2 kolon-boyut">
                     <form class="urun-list resim-boyut">
-                        <a href="./" class="d-block">
+                        <a href="/KofteCig" class="d-block">
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_yusuf-kofte_27.07.2019_08_16_05.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius: 0 0 20px 20px;">
