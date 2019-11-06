@@ -9,6 +9,7 @@ import izgaraetler from './izgaraetler.vue'
 import KahvaltiveYan from './KahvaltiveYan.vue'
 import Doner from './Doner.vue'
 import CigUrunler from './CigUrunler.vue'
+import Kofte from './Kofte'
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import BootstrapVue from 'bootstrap-vue'
 /* import 'bootstrap/dist/css/bootstrap.css'
@@ -30,7 +31,8 @@ const routes = [
   { path: '/izgara-etler', component: izgaraetler },
   { path: '/KahvaltiveYan', component: KahvaltiveYan },
   { path: '/Doner', component: Doner },
-  { path: '/CigUrunler', component: CigUrunler }
+  { path: '/CigUrunler', component: CigUrunler },
+  { path: '/Kofte', component: Kofte }
 ]
 
 const router = new VueRouter({
