@@ -27,13 +27,26 @@
             </li>
           </ul>
         </div>
-        <div class="arama">
-          <svg width="25px" role="img" color="#fff" viewBox="0 0 512 512">
+        <div id="app5" class="arama">
+          <div ref="myNav" class="overlay">
+            <a class="closebtn" @click="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <textarea
+                name="directions"
+                required
+                placeholder="ARAMAK İSTEDİĞİNİZ ŞEYİ YAZINIZ..."
+                rows="3"
+                class="aramak"
+              ></textarea>
+            </div>
+          </div>
+          <svg width="25px" role="img" color="#fff" viewBox="0 0 512 512" @click="openNav()">
             <path
               fill="currentColor"
               d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
             />
           </svg>
+          <!-- <span @click="openNav()">open</span> -->
         </div>
         <div class="sagust">
           <div class="sagust2">
@@ -195,7 +208,20 @@
   </div>
 </template>
 
-
+<script>
+export default {
+  el: "#app5",
+  methods: {
+    closeNav() {
+      this.$refs.myNav.style.width = "0%";
+    },
+    openNav() {
+      this.$refs.myNav.style.width = "100%";
+      this.$refs.myNav.style.height = "28.3%";
+    }
+  }
+};
+</script>
 
 <style scoped>
 .yazitipi {
@@ -341,6 +367,13 @@
 .arama {
   display: flex;
   padding-left: 25px;
+  cursor: pointer;
+}
+
+.overlayarama {
+  background-color: black;
+  border: 0;
+  cursor: pointer;
 }
 
 .sagust {
@@ -479,4 +512,71 @@
 .giristuruncu:hover {
   background-color: #fba241;
 }
+.aramak {
+  width: 100%;
+  height: 182px;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: white;
+
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  /* position: relative;
+  top: 25%; */
+  width: 100%;
+  /* text-align: center;
+  margin-top: 30px; */
+}
+
+.overlay a {
+  padding: px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
 </style>
+
+
+
+
+
+
+
+
+
+
+
