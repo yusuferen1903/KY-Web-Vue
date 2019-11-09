@@ -156,12 +156,116 @@
       </div>
     </div>
     <!-- navigation bar eklendi -->
+    <div class="navbar yazitipi">
+      <ul>
+        <li class="dropdown" style="margin-left:28%">
+          <a href="CigUrunler" class="dropbtn">Çiğ Ürünler</a>
+          <div class="dropdown-content">
+            <a href="/KofteCig">Köfte</a>
+            <a href="#">Kasap Sucuk</a>
+            <a href="#">Dana Kıyma</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="/izgaraetler" class="dropbtn">Izgara Etler</a>
+          <div class="dropdown-content">
+            <a href="/Kofte">Köfte</a>
+            <a href="#">Sucuk</a>
+            <a href="#">Piliç İncik</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="/KahvaltiveYan" class="dropbtn">Kahvaltı ve Yan Ürünler</a>
+          <div class="dropdown-content">
+            <a href="#">Kahvaltı Tabağı</a>
+            <a href="#">Mercimek Çorbası</a>
+            <a href="#">Patates Kızartması</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="/Doner" class="dropbtn">Döner</a>
+          <div class="dropdown-content">
+            <a href="#">Döner Dürüm</a>
+            <a href="#">Mercimek Çorbası</a>
+            <a href="#">Döner Ekmek Arası</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
 
 
 <style scoped>
+.yazitipi {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #444444;
+  text-align: left;
+  background-color: #ffffff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #fba241;
+}
+
+.navbar ul li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .ust {
   padding-right: 15px;
   padding-left: 15px;
