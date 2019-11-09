@@ -235,7 +235,8 @@
 
 .navbar ul li a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #fba241;
+  color: #fba241;
+  background-color: black;
 }
 
 .navbar ul li.dropdown {
