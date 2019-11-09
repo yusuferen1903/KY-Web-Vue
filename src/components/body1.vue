@@ -7,7 +7,7 @@
         </div>
         <div class="kol-6 kol-sm-3" style="padding-left:135px">
           <form class="urun-liste-malz mt-30">
-            <a href="./" class="u-block">
+            <a href="/deneme" class="u-block">
               <img
                 src="https://kofteciyusuf.com/uploads/pictures/thumb_kofte_26.09.2019_01_30_09.jpg"
               />

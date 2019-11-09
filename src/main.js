@@ -11,8 +11,12 @@ import Doner from './Doner.vue'
 import CigUrunler from './CigUrunler.vue'
 import Kofte from './Kofte'
 import KofteCig from './KofteCig'
+import deneme from './deneme'
+import Sepetim from './Sepetim'
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import BootstrapVue from 'bootstrap-vue'
+
+
 /* import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css' */
 
@@ -34,7 +38,9 @@ const routes = [
   { path: '/Doner', component: Doner },
   { path: '/CigUrunler', component: CigUrunler },
   { path: '/Kofte', component: Kofte },
-  { path: '/KofteCig', component: KofteCig }
+  { path: '/KofteCig', component: KofteCig },
+  { path: '/deneme', component: deneme },
+  { path: '/Sepetim', component: Sepetim },
 ]
 
 const router = new VueRouter({
@@ -46,4 +52,5 @@ new Vue({
   render: h => h(App),
   router,
 }).$mount('#app')
+
 
