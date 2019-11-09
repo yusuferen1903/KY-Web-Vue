@@ -100,7 +100,7 @@
             </div>
 
             <div class="sepet">
-              <router-link to="/Giris">
+              <router-link to="/Sepetim">
                 <svg
                   x="0px"
                   y="0px"
@@ -148,6 +148,17 @@
             </div>
           </div>
         </div>
+        <div class="girisbutonlar">
+          <div class="giristurkir">
+            <a href="/Giris">
+              <button type="submit" class="giriskirmizi">Giriş Yap</button>
+            </a>
+          </div>
+          <!-- UYE OL BUTONU BASINCA UYELİK SAYFASINA GİDİYOR -->
+          <div class="giristurkir">
+            <a href="/Uyelik" class="giristuruncu">Üye Ol</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -171,7 +182,11 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  padding-left: 70px;
+  padding-left: 25px;
+}
+
+.ustyazilar1 {
+  margin-left: -35px;
 }
 
 .logo {
@@ -316,5 +331,48 @@
 }
 .sepet:hover {
   background-color: #3f3f3f;
+}
+
+.giriskirmizi {
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 20px;
+  min-width: 150px;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+.giriskirmizi:hover {
+  background-color: #e5e5e5;
+}
+
+.giristuruncu {
+  background-color: #fa9628;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 20px;
+  min-width: 150px;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: block !important;
+  text-decoration: none;
+  margin-top: 7px;
+}
+.girisbutonlar {
+  margin-left: 30px;
+}
+.giristuruncu:hover {
+  background-color: #fba241;
 }
 </style>
