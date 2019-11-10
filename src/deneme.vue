@@ -14,6 +14,8 @@ export default {
     deneme1
   }
 };
+
+
 </script>
 
 
