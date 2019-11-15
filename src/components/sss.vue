@@ -245,6 +245,180 @@
                 >Ürünlerimizin tamamı Avrupa standartlarındaki Türkiye'nin ilk ve tek köfte fabrikası olan Bursa Yenişehir fabrikamızda Türk Gıda Kodeksine uygun olarak gıda mühendisleri kontrolünde üretilmektedir. Ayrıca ürettiğimiz ve sattığımız her üründen aylık olarak numuneler alınmaktadır. Köftelerimiz %70 dana eti, %30 kuzu eti, ekmek, tuz, pul biber, beyaz soğan ve ustalarımızın maharetleriyle üretilmektedir.</div>
               </template>
             </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Köfteci Yusuf Hayvan Teminini Nereden Yapmaktadır ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div
+                  class="sssyazi"
+                >Ürünlerimizde kullandığımız belirli ırktaki dana ve kuzuların %20’si kendi çiftliğimizden, %70’i anlaşmalı çiftçi ve profesyonel işletmelerden, %10’u ise sürekli alım yaptığımız büyük toptancılardan sağlanmaktadır. Tedarikçilerimizin bizim için kullandığı bu hayvanların doğumundan sonraki her aşamasını geriye dönük olarak araştırılıp izlenebilirliğini sağlayacak sistemlerin kullanması güvenilirliği açısından zorunlu tutulmaktadır. Doğumdan kesime kadar olan bu süreçteki yemleme programlarının veterinerlerimiz, gıdacılarımız, hayvan besleme ve yem uzmanları tarafından hazırlanıp uygulanması denetlenmektedir. Bu süreç standart ve istediğimiz kalitede ete ulaşma sürecini sürdürmemizin koruyucusudur. Hayvanların kesim öncesi mezbahaya gelme şartları, stressiz kesim aşaması ve il tarımların denetlediği yüksek standartlardaki mezbahalarda helal kesim yapılmaktadır. Buradaki etler bir gece 4 dereceye kadar soğutulduktan sonra 4 derecelik soğutucu kamyonlar ile Bursa Yenişehir’de ki fabrikamıza getirilip son olarak veteriner hekim ve laboratuvar kontrolünden geçtikten sonra üretime kabul edilir.</div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Helal Gıda Sertifikası / Belgesi'ne Sahip Misiniz ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div
+                  class="sssyazi"
+                >Helal gıda sertifikamız ve belgemiz bulunmaktadır. Kurumumuz Dünya Helal Birliği ( WHU ) tarafından denetlenerek HELAL sertifikası almaya hak kazanan Türkiye'de sektörünün ilk ve öncü kuruluşudur.</div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Şubelerinize Ürünleriniz Günlük Olarak Mı Gelmektedir ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div
+                  class="sssyazi"
+                >Ürünlerimizin imalathanemizden şubelerimize sevkiyatı kamyonlarla soğuk zincir kırılmadan ( + 4 ) derecede muhafaza edilerek günlükten bile daha taze olarak günde 3 kez sevkiyat yapılabilmektedir.</div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >KÖFTECİ YUSUF Ortaklık Yapısı Nedir ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div
+                  class="sssyazi"
+                >KÖFTECİ YUSUF markası %100 yerli sermayeyle kurulmuş bir aile şirketidir ve şirket ortaklığı kurulduğu haliyle devam etmektedir.</div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Şubelerinizle İlgili Olarak Genel Bilgi Verebilir Misiniz ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div class="sssyazi">
+                  <strong>Çalışma Saatleri :</strong>Şubelerimizin çalışma saatleri farklı olup İzmir Örnekköy, Balıkesir Susurluk ve Bilecik Bozüyük şubelerimiz 24 saat boyunca hizmet vermektedir.
+                </div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Ödeme Şekilleriniz Nelerdir ? Yemek Kartları Geçerli Midir ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div
+                  class="sssyazi"
+                >Tüm şubelerimizde Ticket, Sodexo, Setcart, Metropol ve Multinet kartları ve kuponları geçerlidir. Ayrıca tüm şubelerimizde nakit, banka kartı veya kredi kartı ile ödeme yapabilirsiniz.</div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Kahvaltı Tabağıyla İlgili Olarak Bilgi Verebilir Misiniz ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div class="sssyazi">
+                  Kahvaltı tabağımız tüm Köfteci Yusuf şubelerimizde BAL, KAYMAK, AHUDUDU REÇELİ, BEYAZ PEYNİR, EZİNE PEYNİRİ, KAŞAR PEYNİR, ÇUBUK PEYNİR, TEREYAĞ, JAMBON SUCUK, DOMATES, SALATALIK, YEŞİL BİBER, HAŞLANMIŞ YUMURTA, SİYAH ZEYTİN, BİBERLİ YEŞİL ZEYTİN, KIZARMIŞ EKMEK ve SINIRSIZ ÇAY'DAN oluşan zengin içeriğiyle hizmetinize sunulmuştur. Kahvaltı tabağımızı hemen almak için
+                  <a
+                    href="http://www.kofteciyusuf.com/kahvalti-tabagi.html"
+                    style="color:#fa9628"
+                  >http://www.kofteciyusuf.com/kahvalti-tabagi.html</a> linkine tıklayarak kolay ve hızlı olarak temin edebilirsiniz.
+                </div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Etin En Uygun Pişirme Süresi Nedir ? Pişirirken Dİkkat Edilmesi Gereken Herhangi Bir Şey Var Mıdır ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div class="sssyazi">
+                  Et pişirme ve diğer pratik bilgiler için lütfen
+                  <a
+                    href="https://kofteciyusuf.com/blog.html"
+                    style="color:#fa9628"
+                  >Blog</a> sayfamızı ziyaret edin
+                </div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Köftenizi Satın Aldıktan Sonra Nasıl Muhafaza Edebilirim ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div
+                  class="sssyazi"
+                >Etiket üzerinde yer alan bilgilere göre ( +4 ) derecede lezzeti bozulmadan son tüketim tarihine kadar güvenle muhafaza edebilirsiniz.</div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Bayilik / İsim Hakkı Veriyor Musunuz ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div
+                  class="sssyazi"
+                >Tüm şubelerimizi KÖFTECİ YUSUF bünyesinde çalışmakta olan personellerle ve kendi ekibimizle yönetmekteyiz. Kalite, hijyen, hizmet ve lezzet standartlarımızı korumak adına şu an için bayilik / isim hakkı vermiyoruz.</div>
+              </template>
+            </badger-accordion-item>
+            <badger-accordion-item>
+              <template slot="header">
+                <div class="sss">
+                  <h1
+                    class="tablo-cizgi baslik-boyut orta-ayar orta-boy"
+                  >Sucuğunuzu Satın Aldıktan Sonra Nasıl Muhafaza Edebilirim ?</h1>
+                </div>
+              </template>
+              <template slot="content">
+                <div class="sssyazi">
+                  Etiket üzerinde yer alan bilgilere göre ( +4 ) derecede lezzeti bozulmadan son tüketim tarihine kadar muhafaza edebilirsiniz. Ürünün hava ile temasını engellememek için buzdolabında poşet içerisinde, yağlı kağıda sarılı bir şekilde muhafaza etmeyiniz.
+                  <br />
+                  <br /><strong>KÖFTECİ YUSUF</strong> Çiğ Sucuk almak için ;
+                  <a
+                    href="https://kofteciyusuf.com/baton-sucuk.html"
+                    style="color:#fa9628"
+                  >https://kofteciyusuf.com/baton-sucuk.html</a> adresine tıklayabilirsiniz.
+                  <br />
+                  <br /><strong>KÖFTECİ YUSUF</strong> Izgara Sucuk almak için ;
+                  <a
+                    style="color:#fa9628"
+                    href="https://kofteciyusuf.com/sucuk.html"
+                  >https://kofteciyusuf.com/sucuk.html</a> adresine tıklayabilirsiniz.
+                </div>
+              </template>
+            </badger-accordion-item>
           </badger-accordion>
         </div>
       </div>
@@ -487,6 +661,9 @@ img {
 .sssbosluk {
   padding-left: 2em !important;
   font-weight: 400 !important;
+}
+.sssyazi a:hover {
+  color: #fba241;
 }
 </style>
 
