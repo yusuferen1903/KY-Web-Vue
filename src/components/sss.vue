@@ -7,7 +7,7 @@
           <h3 class="tablo-cizgi baslik tablo-boyut tablo-genel">ÜRÜN KATEGORİLERİ</h3>
           <ul class="kategori-list duzen gorunus">
             <li class>
-              <a href="/CigUrunler">Çiğ Ürünler</a>
+              <a href="./">Hakkımızda</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -19,7 +19,10 @@
               </i>
             </li>
             <li class>
-              <a href="/izgara-etler">Izgara Etler</a>
+              <a href="./">
+                Vizyonumuz & Misyonumuz &
+                <br />Değerlerimiz
+              </a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -31,7 +34,7 @@
               </i>
             </li>
             <li class>
-              <a class="sabitle" href="/KahvaltiveYan">Kahvaltı ve Yan Ürünler</a>
+              <a href="./">Ortaklık Yapısı</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -43,7 +46,7 @@
               </i>
             </li>
             <li class>
-              <a href="/Doner">Döner</a>
+              <a href="./">Üretim Tesisimiz</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -55,7 +58,7 @@
               </i>
             </li>
             <li class>
-              <a href="salata-cesitleri.html">Salata Çeşitleri</a>
+              <a href="./">Kalite</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -67,7 +70,7 @@
               </i>
             </li>
             <li class>
-              <a href="tatli-cesitleri.html">Tatlı Çeşitleri</a>
+              <a href="./">Belgelerimiz</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -79,7 +82,7 @@
               </i>
             </li>
             <li class>
-              <a href="sarkuteri-urunleri.html">Şarküteri Ürünleri</a>
+              <a href="./">İnsan Kaynakları</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -91,7 +94,127 @@
               </i>
             </li>
             <li class>
-              <a href="icecekler.html">İçecekler</a>
+              <a href="./" class="sssbosluk">Köfteci Yusuf'ta Kariyer</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li class>
+              <a href="./" class="sssbosluk">İnsan Kaynakları Yaklaşımımız</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li class>
+              <a href="./" class="sssbosluk">Değerlendirme ve İşe Alım</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li class>
+              <a href="./" class="sssbosluk">Gelişim İmkanları</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li class>
+              <a href="./" class="sssbosluk">Kariyer Fırsatları</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li class>
+              <a href="./">Bilgi Toplumu Hizmeti</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li class>
+              <a href="./">Kullanım Koşulları</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li class>
+              <a href="./">KVK Kanunu</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li class>
+              <a href="./">Kiralık Yer Önerisi</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li>
+              <a href="./" class="sabitle">Sıkça Sorulan Sorular</a>
+              <i>
+                <svg viewBox="0 0 320 512">
+                  <path
+                    fill="currentColor"
+                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256
+                            34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                  />
+                </svg>
+              </i>
+            </li>
+            <li class>
+              <a href="./">Öneri ve Şikayet</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -121,11 +244,6 @@
                   class="sssyazi"
                 >Ürünlerimizin tamamı Avrupa standartlarındaki Türkiye'nin ilk ve tek köfte fabrikası olan Bursa Yenişehir fabrikamızda Türk Gıda Kodeksine uygun olarak gıda mühendisleri kontrolünde üretilmektedir. Ayrıca ürettiğimiz ve sattığımız her üründen aylık olarak numuneler alınmaktadır. Köftelerimiz %70 dana eti, %30 kuzu eti, ekmek, tuz, pul biber, beyaz soğan ve ustalarımızın maharetleriyle üretilmektedir.</div>
               </template>
-            </badger-accordion-item>
-
-            <badger-accordion-item>
-              <template slot="header">Second Accordion Header</template>
-              <template slot="content">Second Accordion Content</template>
             </badger-accordion-item>
           </badger-accordion>
         </div>
@@ -204,7 +322,7 @@ li {
 .kategori-list li a {
   position: relative;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   color: #333;
   background-color: #f8f8f8;
   display: block;
@@ -365,6 +483,10 @@ img {
 .sssyazi {
   color: #444444;
   padding-bottom: 30px;
+}
+.sssbosluk {
+  padding-left: 2em !important;
+  font-weight: 400 !important;
 }
 </style>
 

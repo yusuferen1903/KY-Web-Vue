@@ -13,14 +13,17 @@ import Kofte from './Kofte'
 import KofteCig from './KofteCig'
 import deneme from './deneme'
 import Sepetim from './Sepetim'
+import SSS from './SSS'
 import VueCarousel from '@chenfengyuan/vue-carousel';
-import BootstrapVue from 'bootstrap-vue'
+import { BadgerAccordion, BadgerAccordionItem } from 'vue-badger-accordion'
+
 
 
 /* import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css' */
 
-Vue.use(BootstrapVue)
+Vue.component('BadgerAccordion', BadgerAccordion)
+Vue.component('BadgerAccordionItem', BadgerAccordionItem)
 
 Vue.component(VueCarousel.name, VueCarousel);
 
@@ -41,6 +44,7 @@ const routes = [
   { path: '/KofteCig', component: KofteCig },
   { path: '/deneme', component: deneme },
   { path: '/Sepetim', component: Sepetim },
+  { path: '/SSS', component: SSS },
 ]
 
 const router = new VueRouter({
@@ -53,4 +57,10 @@ new Vue({
   router,
 }).$mount('#app')
 
+export default {
+  components: {
+    BadgerAccordion,
+    BadgerAccordionItem
+  }
+}
 

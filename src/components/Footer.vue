@@ -79,7 +79,7 @@
                       <a href="kullanim-kosullari.html">Kullanım Koşulları</a>
                     </li>
                     <li>
-                      <a href="sikca-sorulan-sorular.html">Sıkça Sorulan Sorular</a>
+                      <a href="/SSS">Sıkça Sorulan Sorular</a>
                     </li>
                     <li>
                       <a href="bilgi-toplumu-hizmeti.html">Bilgi Toplum Hizmetleri</a>
@@ -203,7 +203,22 @@ export default {
 
 <style scoped>
 .footerac {
+  background-color: #fa9628;
+  color: white;
+  outline: 0;
+  border: 0;
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footerac:hover {
   background-color: #fba241;
+}
+
+.footerkapat {
+  background-color: #fa9628;
   color: white;
   outline: 0;
   border: 0;
@@ -212,14 +227,8 @@ export default {
   font-weight: bold;
 }
 
-.footerkapat {
+.footerkapat:hover {
   background-color: #fba241;
-  color: white;
-  outline: 0;
-  border: 0;
-  height: 50px;
-  width: 100px;
-  font-weight: bold;
 }
 
 .overlay {
@@ -249,6 +258,7 @@ export default {
   position: absolute;
   top: 20px;
   right: 45px;
+  cursor: pointer;
 }
 
 /* @media screen and (max-height: 450px) {
