@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 85px;">
+  <div class="gifdiv" style="margin-top: 85px;">
     <meta http-equiv="refresh" content="5;URL=http://localhost:8080/Anasayfa" />
 
     <center>

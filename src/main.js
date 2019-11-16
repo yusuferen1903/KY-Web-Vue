@@ -22,6 +22,7 @@ import "vue-loading-overlay/dist/vue-loading.css";
 
 
 
+
 /* import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css' */
 
@@ -30,6 +31,8 @@ Vue.component('BadgerAccordionItem', BadgerAccordionItem)
 
 Vue.component(VueCarousel.name, VueCarousel);
 Vue.use(VueClazyLoad)
+
+
 
 Vue.use(VueRouter);
 Vue.config.productionTip = false
