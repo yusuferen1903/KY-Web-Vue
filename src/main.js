@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
+import Gif from './Gif.vue'
 import anasayfa from './Anasayfa.vue'
 import Giris from './Giris.vue'
 import Uyelik from './Uyelik.vue'
@@ -16,6 +17,8 @@ import Sepetim from './Sepetim'
 import SSS from './SSS'
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import { BadgerAccordion, BadgerAccordionItem } from 'vue-badger-accordion'
+import VueClazyLoad from 'vue-clazy-load'
+import "vue-loading-overlay/dist/vue-loading.css";
 
 
 
@@ -26,13 +29,14 @@ Vue.component('BadgerAccordion', BadgerAccordion)
 Vue.component('BadgerAccordionItem', BadgerAccordionItem)
 
 Vue.component(VueCarousel.name, VueCarousel);
-
+Vue.use(VueClazyLoad)
 
 Vue.use(VueRouter);
 Vue.config.productionTip = false
 
 const routes = [
-  { path: '/', component: anasayfa },
+  { path: '/', component: Gif },
+  { path: '/Anasayfa', component: anasayfa },
   { path: '/Giris', component: Giris },
   { path: '/Uyelik', component: Uyelik },
   { path: '/Favori-urunlerimiz', component: Favoriurunlerimiz },
