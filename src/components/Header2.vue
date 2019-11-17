@@ -25,7 +25,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="./Kurumsal">
                 <span>Kurumsal</span>
               </a>
             </li>

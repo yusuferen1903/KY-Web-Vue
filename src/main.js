@@ -15,6 +15,7 @@ import KofteCig from './KofteCig'
 import deneme from './deneme'
 import Sepetim from './Sepetim'
 import SSS from './SSS'
+import Kurumsal from './Kurumsal'
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import { BadgerAccordion, BadgerAccordionItem } from 'vue-badger-accordion'
 import VueClazyLoad from 'vue-clazy-load'
@@ -52,6 +53,7 @@ const routes = [
   { path: '/deneme', component: deneme },
   { path: '/Sepetim', component: Sepetim },
   { path: '/SSS', component: SSS },
+  { path: '/Kurumsal', component: Kurumsal },
 ]
 
 const router = new VueRouter({

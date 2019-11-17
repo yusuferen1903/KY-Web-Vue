@@ -11,7 +11,7 @@
     <div class="ust">
       <div class="ust2">
         <div class="ust3">
-          <a href class="logo">
+          <a href="./Anasayfa" class="logo">
             <img src="https://kofteciyusuf.com/assets/dist/img/logo.png" alt class="img-fluid" />
           </a>
         </div>
@@ -29,7 +29,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="./Kurumsal">
                 <span>Kurumsal</span>
               </a>
             </li>
@@ -188,7 +188,7 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="/izgaraetler" class="dropbtn">Izgara Etler</a>
+          <a href="/izgara-etler" class="dropbtn">Izgara Etler</a>
           <div class="dropdown-content">
             <a href="/Kofte">Köfte</a>
             <a href="#">Sucuk</a>
