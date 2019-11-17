@@ -1,16 +1,22 @@
 <template>
   <div>
+    <Header />
     <sss />
+    <Footer />
   </div>
 </template>
 
 <script>
 import sss from "./components/sss.vue";
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "app",
   components: {
-    sss
+    Header,
+    sss,
+    Footer
   }
 };
 </script>
