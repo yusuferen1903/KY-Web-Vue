@@ -182,11 +182,11 @@
         </div>
       </div>
     </div>
-
+<!-- deniyorum -->
     <button class="footerac" @click="openNav()">FOOTER AÇ</button>
   </div>
 </template>
- 
+ <!--github deneme-->
 <script>
 export default {
   el: "#app5",
