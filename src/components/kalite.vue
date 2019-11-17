@@ -42,7 +42,7 @@
               </i>
             </li>
             <li class>
-              <a href="/OrtaklikYapisi" >Ortaklık Yapısı</a>
+              <a href="/OrtaklikYapisi">Ortaklık Yapısı</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -265,7 +265,41 @@
         <!-- orta kısım burada oluşturulmaya başlanıyor-->
         <div class="orta-kol-1">
           <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Kalite</h3>
-          
+          <div class="hakkimizdayazi">
+            <h2>KÖFTECİ YUSUF A.Ş. GIDA GÜVENLİĞİ POLİTİKASI</h2>
+
+            <p>Köfteci Yusuf A.Ş. kurumsal yapılanması ile hizmet verdiğimiz tüm şehirlerde “taze lezzetleri, esnaf ilgisiyle hızlı ve hesaplı sunarak müşterilerimizi memnun etmek’’ kalite yönetim sistemlerimizin temel amacıdır.</p>
+
+            <p>Tüm restoranlarımıza et tedariki sağlayan Bursa Yenişehir’de bulunan Et Entegre tesisimizde hammadde kabul, üretim, ambalajlama, depolama ve sevkiyat süreçlerinde taze, lezzetli, hijyenik, hesaplı ürünleri en yüksek teknoloji kullanılarak üretirken uyguladığımız gıda güvenliği politikamız;</p>
+
+            <ul>
+              <li>Et Entegre Tesisimize ve restoranlarımıza alımı yapılan hammaddelerin Kalite ve Gıda Güvenliği Standartlarına, Helal üretim koşullarına ve Türk Gıda Kodeksi kurallarına uygunluğunu gıda mühendisleri – veteriner hekimlerden oluşan ekibimizle titizlikle denetime tabi tutmak,</li>
+              <li>Üretimde kullanılan hammadde ve yardımcı maddelerin yasal mevzuatlara ve Köfteci Yusuf politikalarına uygunluğu, tedarikçi firmalardan talep edilen kimyasal, fiziksel ve mikrobiyolojik analiz raporlarıyla takip etmek, rutin olarak her ürünü laboratuvarımızda yaptığımıza analizler ile doğrulamak,</li>
+              <li>İyi Gıda Güvenliği ve İyi Hijyen Uygulamalarının sürdürülebilirliğini sağlamak,</li>
+              <li>Tüm et ve süt ürünlerimizin soğuk zincir kırılmadan restoranlarımıza ulaştırmak,</li>
+              <li>Gıda zincirinde yer alan tedarikçiler ile etkin bir iletişim kurmak gıda güvenliğinin ve kalitesinin sürdürülmesini sağlamak,</li>
+              <li>Et entegre tesisimiz ve restoranlarımızdaki tüm ekibimizi gıda güvenliği ve hijyen konularında sürekli eğiterek bu konuda bilinci artırmak, takım arkadaşlarımız ile birlikte yapılan projelerle sistemimizi hep birlikte geliştirmek, katılımlarını sağlamak,</li>
+              <li>Müşterilerimizin ürünlerimizle ilgili en küçük şikayetini dahi önemli bir girdi kabul edip kalite ve gıda güvenliğimizi sürekli geliştirmeye çalışmak.</li>
+              <li>Her defasında tercih edilen marka olmak için müşteri beklentilerini eksiksiz olarak karşılamaktır.</li>
+            </ul>
+
+            <h3>ÜRETİM SÜRECİMİZ</h3>
+
+            <p>Izgaramızda pişirilip masanıza servis edilen tüm köfte ve etlerimiz Bursa Yenişehir’deki, gıda güvenliği ve hijyen temelinde en modern ekipmanlarla donatılmış entegre tesisimizde hazırlanmaktadır.</p>
+
+            <h3>SEVKİYAT SÜRECİMİZ</h3>
+
+            <p>Entegre tesislerimizde gıda mühendisleri gözetiminde, gıda güvenliği kriterlerine uygun olarak hazırlanan köfte ve etlerimiz soğuk zincir araçlarla sürekli online ısı denetimi yapılarak restoranlarımıza sevk edilmektedir.</p>
+
+            <h3>DEPOLAMA SÜRECİMİZ</h3>
+
+            <p>Gıda güvenliği kriterlerine uygun olarak hazırlanarak restoranlarımıza sevk edilen köfte ve etlerimiz şubelerimize ulaşır ulaşmaz soğuk hava depomuza alınmakta ve pişirme aşamasında kömür ateşiyle hazırlanan ızgaraya ulaşıncaya kadar dinlendirilmektedir.</p>
+
+            <h3>PİŞİRME ve SERVİS SÜRECİMİZ</h3>
+
+            <p>Soğuk hava depolarımızda dinlendirilerek pişirmeye hazır olan etlerimiz taze taze ustalarımızın ızgarasına bırakılmakta, pişer pişmez sıcak olarak masanıza servis edilmektedir.</p>
+          </div>
+
           <!-- alt resimler burda oluşturulmaya başlanıyor-->
           <hr class="altcizgi" />
           <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Bizden Haberler</h3>
@@ -693,30 +727,6 @@ img {
 .sagresim:hover {
   background-color: #ffffff !important;
 }
-
-.tablodiv {
-  width: 826px;
-  color: rgb(68, 68, 68);
-  font-family: sans-serif;
-}
-
-.table {
-  border-collapse: collapse;
-  
-}
-
-.table thead {
-    border-bottom: 2px solid #dddddd;
-}
-
-.table tbody td {
-  border-bottom: 1px solid #dddddd;
-}
-
-.table td {
-    padding: 10px;
-}
-
 </style>
 
 
