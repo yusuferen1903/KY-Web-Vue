@@ -265,53 +265,42 @@
         <!-- orta kısım burada oluşturulmaya başlanıyor-->
         <div class="orta-kol-1">
           <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">İnsan Kaynakları</h3>
+          <div class="yazitipi" lightbox="content-image">
+            <a
+              href="uploads/pictures/human_ailemize-katilmak-ister-misiniz_09.09.2019_03_59_36.jpg"
+              lightbox-item="content-image"
+              style="float: left;"
+            >
+              <img
+                src="https://kofteciyusuf.com/uploads/pictures/thumb_human_ailemize-katilmak-ister-misiniz_09.09.2019_03_59_36.jpg"
+                alt
+                class="w-100"
+              />
+            </a>
 
-          <!-- alt resimler burda oluşturulmaya başlanıyor-->
-          <hr class="altcizgi" />
-          <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Bizden Haberler</h3>
-          <div id="content-photos-carousel" class="margin30">
-            <div class="kurumsalaltresim">
-              <div
-                class="swiper-slide swiper-slide-active"
-                style="width: 255px; margin-right: 30px;"
-              >
-                <a class="d-block" href="kofteci-yusuf-tesislerinde-uretilen-urunlerimiz.html">
-                  <div class="position-relative">
-                    <img
-                      class="swiper-lazy img-fluid swiper-lazy-loaded"
-                      src="https://kofteciyusuf.com/uploads/pictures/thumb_saglikliet_19.09.2018_05_47_05.jpeg"
-                    />
-                  </div>
-                  <div class="mt-3">Köfteci Yusuf Tesislerinde Üretilen Ürünlerimiz</div>
-                </a>
-                <div class="swiper-lazy img-fluid-preloader swiper-lazy-loaded"></div>
-              </div>
+            <p>
+              <strong>
+                <em>Türkiye’nin en büyük köfte zincirinin büyüme yolculuğunda yer almak isteyen, güler yüzlü ve çalışkan ekip arkadaşları arıyoruz.</em>
+              </strong>
+            </p>
 
-              <div class="swiper-slide swiper-slide-next" style="width: 255px; margin-right: 30px;">
-                <a class="d-block" href="kampuste-kariyer.html">
-                  <div class="position-relative">
-                    <img
-                      class="swiper-lazy img-fluid swiper-lazy-loaded"
-                      src="https://kofteciyusuf.com/uploads/pictures/thumb_kariyer_01.05.2018_06_29_32.jpg"
-                    />
-                  </div>
-                  <div class="mt-3">Kampüste Kariyer Programı Başladı</div>
-                </a>
-                <div class="swiper-lazy img-fluid-preloader swiper-lazy-loaded"></div>
-              </div>
+            <p>Müşteri memnuniyetine gönülden inanarak çalışan bir ekibin üyesi olmak üzere; tam zamanlı ya da yarı zamanlı çalışmak ve kariyer basamaklarını hızla tırmanmak için bize ulaşabilirsiniz. İşimizi bir dünya markası yaparken, siz değerli ekip arkadaşlarına ihtiyacımız var. Sizinle çalışmak isteriz.</p>
+            <hr />
+            <p>
+              Siz de ailemize katılmak ve kariyer yapmak istiyorsanız, aşağıda yeralan
+              <strong>Başvuru Formunu doldurunuz.</strong>
+            </p>
 
-              <div class="swiper-slide" style="width: 255px; margin-right: 30px;">
-                <a class="d-block" href="hurriyet-gazetesi-haber.html">
-                  <div class="position-relative">
-                    <img
-                      class="swiper-lazy img-fluid swiper-lazy-loaded"
-                      src="https://kofteciyusuf.com/uploads/pictures/thumb_web-haber-gorseli_28.08.2015_10_36_24.jpg"
-                    />
-                  </div>
-                  <div class="mt-3">Hürriyet Gazetesi Haber</div>
-                </a>
-              </div>
-            </div>
+            <p style="margin-top: 30px;">
+              <a href="insan-kaynaklari-basvuru.html" class="basvuruformu">Başvuru Formu</a>
+
+              <a
+                target="_blank"
+                href="http://www.kariyer.net/kofteci-yusuf-a-s-is-ilanlari-c92509-p43769/?sonincelenen=1420044&amp;tmpsno=1&amp;isaratipi=2"
+                class="acikpozisyonlar"
+                style="background-color: #02cc24"
+              >Açık Pozisyonlar</a>
+            </p>
           </div>
         </div>
       </div>
@@ -692,6 +681,44 @@ img {
 
 .sagresim:hover {
   background-color: #ffffff !important;
+}
+
+.basvuruformu {
+  background-color: #fa9628;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 20px;
+  min-width: 150px;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+.basvuruformu:hover {
+  background-color: #fba241;
+}
+
+.acikpozisyonlar {
+  background-color: #02cc24;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 20px;
+  min-width: 150px;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  font-family: sans-serif;
+  margin-left: 5px;
+}
+
+.yazitipi {
+  color: rgb(68, 68, 68);
+  font-family: sans-serif;
+  width: 826px;
 }
 </style>
 
