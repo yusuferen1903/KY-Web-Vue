@@ -1,5 +1,14 @@
 <template>
-    <div>
+
+    <div >
+      <div class="vld-parent">
+    <loading
+      :active.sync="isLoading"
+      :can-cancel="true"
+      :on-cancel="onCancel"
+      :is-full-page="fullPage"
+    ></loading>
+      </div>
         <div class="genel-box">
     <div class="satir">
         <div class="sol-kol-1">
@@ -8,8 +17,8 @@
             <h3 class="tablo-cizgi baslik tablo-boyut tablo-genel">
                 ÜRÜN KATEGORİLERİ
             </h3>
-            <ul class="kategori-list duzen gorunus">
-                <li class>
+            <ul class="kategori-list duzen gorunus" @click="doAjax" >
+                <li >
                     <a href="/CigUrunler">
                         Çiğ Ürünler
                     </a>
@@ -31,8 +40,8 @@
                         </svg>
                     </i>
                 </li>
-                <li class>
-                    <a href="/KahvaltiveYan">
+                <li>
+                    <a  href="/KahvaltiveYan">
                         Kahvaltı ve Yan Ürünler
                     </a>
                     <i>
@@ -195,7 +204,7 @@
                 <div class="kolonlar2 kolon-boyut" style="margin-top:915px; margin-left:-960px">
                     <form class="urun-list kolon-boyut">
                         <a href="./" class="d-block">
-                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kofte-sucuk-tavuk_26.09.2019_04_10_42.jpg" alt class="img-fluid">						
+                            <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kofte-sucuk-tavuk_26.09.2019_04_10_42.jpg" alt class="img-fluid">           
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
                             <h3 class="h3yazilar">Köfte Sucuk Piliç Karışık</h3>
@@ -322,6 +331,35 @@
     </div>
  </div>
 </template>
+
+<script>
+import Loading from "vue-loading-overlay";
+import "vue-loading-overlay/dist/vue-loading.css";
+
+export default {
+  
+  data() {
+    return {
+      isLoading: false,
+      fullPage: true,
+      
+    };
+  },
+  
+  components: {
+    Loading
+  },
+  methods: {
+    doAjax() {
+      this.isLoading = true;
+      // simulate AJAX
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 5000 );
+    }
+  }
+};
+</script>
 
 <style scoped>
 .genel-box {
@@ -548,4 +586,8 @@ img{
    
 }
 </style>
+
+
+
+
 
