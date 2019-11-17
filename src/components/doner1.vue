@@ -1,5 +1,13 @@
 <template>
     <div>
+          <div class="vld-parent">
+    <loading
+      :active.sync="isLoading"
+      :can-cancel="true"
+      :on-cancel="onCancel"
+      :is-full-page="fullPage"
+    ></loading>
+      </div>
         <div class="genel-box">
     <div class="satir">
         <div class="sol-kol-1">
@@ -8,7 +16,7 @@
             <h3 class="tablo-cizgi baslik tablo-boyut tablo-genel">
                 ÜRÜN KATEGORİLERİ
             </h3>
-            <ul class="kategori-list duzen gorunus">
+            <ul class="kategori-list duzen gorunus" @click="doAjax">
                 <li class>
                     <a href="/CigUrunler">
                         Çiğ Ürünler
@@ -176,6 +184,35 @@
     </div>
  </div>
 </template>
+
+<script>
+import Loading from "vue-loading-overlay";
+import "vue-loading-overlay/dist/vue-loading.css";
+
+export default {
+  
+  data() {
+    return {
+      isLoading: false,
+      fullPage: true,
+      
+    };
+  },
+  
+  components: {
+    Loading
+  },
+  methods: {
+    doAjax() {
+      this.isLoading = true;
+      // simulate AJAX
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 5000 );
+    }
+  }
+};
+</script>
 
 <style scoped>
 .genel-box {
