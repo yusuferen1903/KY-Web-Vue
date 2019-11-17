@@ -42,7 +42,7 @@
               </i>
             </li>
             <li class>
-              <a href="/OrtaklikYapisi" class="sabitle">Ortaklık Yapısı</a>
+              <a href="/OrtaklikYapisi" >Ortaklık Yapısı</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -66,7 +66,7 @@
               </i>
             </li>
             <li class>
-              <a href="/Kalite">Kalite</a>
+              <a href="/Kalite" class="sabitle">Kalite</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -264,58 +264,8 @@
         </div>
         <!-- orta kısım burada oluşturulmaya başlanıyor-->
         <div class="orta-kol-1">
-          <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Ortaklık Yapısı</h3>
-          <div class="tablodiv">
-            <p style="text-align:center">
-              <strong>"1996 yılında İznik’te kurulan Köfteci Yusuf A.Ş.'nin güncel ortaklık yapısı şu şekildedir."</strong>
-            </p>
-
-            <hr />
-            <table class="table" style="width:100%">
-              <thead>
-                <tr>
-                  <td>Ortak</td>
-                  <td>Pay Tutarı (TL)</td>
-                  <td style="text-align:center">Pay Oranı</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <strong>YUSUF AKKAŞ</strong>
-                  </td>
-                  <td>
-                    <strong>27.900.000 TL</strong>
-                  </td>
-                  <td style="text-align:center">
-                    <strong>%93</strong>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong>RAMAZAN AKKAŞ</strong>
-                  </td>
-                  <td>
-                    <strong>2.100.000 TL</strong>
-                  </td>
-                  <td style="text-align:center">
-                    <strong>%7</strong>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong>TOPLAM</strong>
-                  </td>
-                  <td>
-                    <strong>30.000.000 TL&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>
-                  </td>
-                  <td style="text-align:center">
-                    <strong>%100</strong>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Kalite</h3>
+          
           <!-- alt resimler burda oluşturulmaya başlanıyor-->
           <hr class="altcizgi" />
           <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Bizden Haberler</h3>
@@ -752,10 +702,11 @@ img {
 
 .table {
   border-collapse: collapse;
+  
 }
 
 .table thead {
-  border-bottom: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
 }
 
 .table tbody td {
@@ -763,8 +714,9 @@ img {
 }
 
 .table td {
-  padding: 10px;
+    padding: 10px;
 }
+
 </style>
 
 

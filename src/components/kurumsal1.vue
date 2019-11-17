@@ -66,7 +66,7 @@
               </i>
             </li>
             <li class>
-              <a href="./">Kalite</a>
+              <a href="/Kalite">Kalite</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path

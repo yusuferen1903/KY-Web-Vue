@@ -18,6 +18,7 @@ import SSS from './SSS'
 import Kurumsal from './Kurumsal'
 import Hakkimizda from './Hakkimizda'
 import OrtaklikYapisi from './OrtaklikYapisi'
+import Kalite from './Kalite'
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import { BadgerAccordion, BadgerAccordionItem } from 'vue-badger-accordion'
 import VueClazyLoad from 'vue-clazy-load'
@@ -58,6 +59,7 @@ const routes = [
   { path: '/Kurumsal', component: Kurumsal },
   { path: '/Hakkimizda', component: Hakkimizda },
   { path: '/OrtaklikYapisi', component: OrtaklikYapisi },
+  { path: '/Kalite', component: Kalite },
 ]
 
 const router = new VueRouter({
