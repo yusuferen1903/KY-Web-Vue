@@ -15,7 +15,7 @@
           <h3 class="tablo-cizgi baslik tablo-boyut tablo-genel">ÜRÜN KATEGORİLERİ</h3>
           <ul class="kategori-list duzen gorunus" @click="doAjax">
             <li class>
-              <a href="/Hakkimizda">Hakkımızda</a>
+              <a href="/Hakkimizda" class="sabitle">Hakkımızda</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
