@@ -90,7 +90,7 @@
               </i>
             </li>
             <li class>
-              <a href="./">İnsan Kaynakları</a>
+              <a href="/İnsanKaynaklari">İnsan Kaynakları</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path

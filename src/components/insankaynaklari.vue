@@ -15,7 +15,7 @@
           <h3 class="tablo-cizgi baslik tablo-boyut tablo-genel">ÜRÜN KATEGORİLERİ</h3>
           <ul class="kategori-list duzen gorunus" @click="doAjax">
             <li class>
-              <a href="/Hakkimizda" class="sabitle">Hakkımızda</a>
+              <a href="/Hakkimizda">Hakkımızda</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -90,7 +90,7 @@
               </i>
             </li>
             <li class>
-              <a href="/İnsanKaynaklari">İnsan Kaynakları</a>
+              <a href="/İnsanKaynaklari" class="sabitle">İnsan Kaynakları</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -264,22 +264,8 @@
         </div>
         <!-- orta kısım burada oluşturulmaya başlanıyor-->
         <div class="orta-kol-1">
-          <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Hakkımızda</h3>
-          <img
-            src="https://kofteciyusuf.com/uploads/pictures/61327c74-96c7-4a82-8c55-83211cacdf08_09.09.2019_04_20_35.jpg"
-            class="hakkimizdaresim"
-            alt="Hakkımızda"
-          />
+          <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">İnsan Kaynakları</h3>
 
-          <div class="hakkimizdayazi">
-            <p>Gıda ve restoran sektöründe hizmet veren Köfteci Yusuf A.Ş. 1996 yılında İznik’te kuruldu. 23 yıldır Türkiye’nin gıda ve hizmet sektöründe faaliyet gösteren Köfteci Yusuf A.Ş. Avrupa standartlarında Türkiye’nin en büyük Köfte Fabrikası ünvanına sahip olup, Bursa’da 18, İstanbul’da 17, Ankara’da 11, İzmir’de 7, Balıkesir’de 6, Samsun’da 5, Aydın’da 3, Antalya’da 3,&nbsp;Muğla’da 2, Bilecik’de 2, Eskişehir’de 2, Kırklareli'de 2, Kocaeli’de 2, Ordu'da 2, Kırıkkale’de 2, Denizli’de, Isparta’da, Yalova’da, Sakarya’da, Çanakkale’de, Kütahya’da, Çankırı’da, Amasya’da,&nbsp;Burdur’da,&nbsp;Afyonkarahisar’da, Konya'da ve Edirne'de 1’er tane olmak üzere toplam 96&nbsp;noktada hizmet vermektedir.&nbsp;</p>
-
-            <p>96 şubemizde KÖFTECİ YUSUF, 8&nbsp;şubemizde DÖNER Y, 1&nbsp;şubemizde döner ve ızgara lezzetimize aynı anda ulaşabileceğiniz KÖFTECİ YUSUF - DÖNER Y, 5 şubemizde KÖFTECİ YUSUF lezzetlerinin ekmek arasında buluştuğu ve hamburger lezzetini deneyimleyebileceğiniz EKMEK ARASI Y ve 1 şubemizde Köfteci Yusuf, Hesaplı Kasap, Döner Y, Yusuf Burger, Dürüm Y, Kahvaltı ve Çorba markaları ile beş farklı lezzet alternatifinin bir arada bulunduğu YOLBOYU LEZZETLERİ ile buluşabilirsiniz.</p>
-
-            <p>Bursa Yenişehir’deki Et Entegre Tesisimizde bulunan Hesaplı Kasap’ımız, zengin kasap ve şarküteri ürünleriyle sizlerle buluşmayı beklemektedir.</p>
-
-            <p>Köfteci Yusuf markası ve restoranları, Temmuz 2015’te Hürriyet Gazetesi’nin Kelebek ekinde seçilen ‘’Türkiye’nin En İyi 10 Yol Lokantası’’ sıralamasında birinci seçilerek, Türkiye’nin en güvenilir restoran markası olmuştur.</p>
-          </div>
           <!-- alt resimler burda oluşturulmaya başlanıyor-->
           <hr class="altcizgi" />
           <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Bizden Haberler</h3>
