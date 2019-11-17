@@ -42,7 +42,7 @@
               </i>
             </li>
             <li class>
-              <a href="./">Ortaklık Yapısı</a>
+              <a href="/OrtaklikYapisi">Ortaklık Yapısı</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -262,6 +262,7 @@
             </li>
           </ul>
         </div>
+        <!-- orta kısım burada oluşturulmaya başlanıyor-->
         <div class="orta-kol-1">
           <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Hakkımızda</h3>
           <img
@@ -279,12 +280,11 @@
 
             <p>Köfteci Yusuf markası ve restoranları, Temmuz 2015’te Hürriyet Gazetesi’nin Kelebek ekinde seçilen ‘’Türkiye’nin En İyi 10 Yol Lokantası’’ sıralamasında birinci seçilerek, Türkiye’nin en güvenilir restoran markası olmuştur.</p>
           </div>
+          <!-- alt resimler burda oluşturulmaya başlanıyor-->
           <hr class="altcizgi" />
           <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Bizden Haberler</h3>
           <div id="content-photos-carousel" class="margin30">
-            <!-- Additional required wrapper -->
             <div class="kurumsalaltresim">
-              <!-- Lazy image -->
               <div
                 class="swiper-slide swiper-slide-active"
                 style="width: 255px; margin-right: 30px;"
@@ -300,7 +300,7 @@
                 </a>
                 <div class="swiper-lazy img-fluid-preloader swiper-lazy-loaded"></div>
               </div>
-              <!-- Lazy image -->
+
               <div class="swiper-slide swiper-slide-next" style="width: 255px; margin-right: 30px;">
                 <a class="d-block" href="kampuste-kariyer.html">
                   <div class="position-relative">
@@ -313,7 +313,7 @@
                 </a>
                 <div class="swiper-lazy img-fluid-preloader swiper-lazy-loaded"></div>
               </div>
-              <!-- Lazy image -->
+
               <div class="swiper-slide" style="width: 255px; margin-right: 30px;">
                 <a class="d-block" href="hurriyet-gazetesi-haber.html">
                   <div class="position-relative">
