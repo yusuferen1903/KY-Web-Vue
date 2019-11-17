@@ -210,7 +210,7 @@
               </i>
             </li>
             <li>
-              <a href="./">Sıkça Sorulan Sorular</a>
+              <a href="/SSS">Sıkça Sorulan Sorular</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path

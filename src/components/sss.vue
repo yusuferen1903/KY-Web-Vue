@@ -1,13 +1,21 @@
 <template>
   <div>
+    <div class="vld-parent">
+      <loading
+        :active.sync="isLoading"
+        :can-cancel="true"
+        :on-cancel="onCancel"
+        :is-full-page="fullPage"
+      ></loading>
+    </div>
     <div class="genel-box">
       <div class="satir">
         <div class="sol-kol-1">
           <!-- SOL TARAFTAKİ MENÜ BURDA EKLENMEYE BAŞLANDI-->
           <h3 class="tablo-cizgi baslik tablo-boyut tablo-genel">ÜRÜN KATEGORİLERİ</h3>
-          <ul class="kategori-list duzen gorunus">
+          <ul class="kategori-list duzen gorunus" @click="doAjax">
             <li class>
-              <a href="./">Hakkımızda</a>
+              <a href="/Hakkimizda">Hakkımızda</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -34,7 +42,7 @@
               </i>
             </li>
             <li class>
-              <a href="./">Ortaklık Yapısı</a>
+              <a href="/OrtaklikYapisi">Ortaklık Yapısı</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -58,7 +66,7 @@
               </i>
             </li>
             <li class>
-              <a href="./">Kalite</a>
+              <a href="/Kalite">Kalite</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -82,7 +90,7 @@
               </i>
             </li>
             <li class>
-              <a href="./">İnsan Kaynakları</a>
+              <a href="/İnsanKaynaklari">İnsan Kaynakları</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -202,7 +210,7 @@
               </i>
             </li>
             <li>
-              <a href="./" class="sabitle">Sıkça Sorulan Sorular</a>
+              <a href="/SSS" class="sabitle">Sıkça Sorulan Sorular</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -214,7 +222,7 @@
               </i>
             </li>
             <li class>
-              <a href="./">Öneri ve Şikayet</a>
+              <a href="/OneriSikayet">Öneri ve Şikayet</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
@@ -405,13 +413,15 @@
                 <div class="sssyazi">
                   Etiket üzerinde yer alan bilgilere göre ( +4 ) derecede lezzeti bozulmadan son tüketim tarihine kadar muhafaza edebilirsiniz. Ürünün hava ile temasını engellememek için buzdolabında poşet içerisinde, yağlı kağıda sarılı bir şekilde muhafaza etmeyiniz.
                   <br />
-                  <br /><strong>KÖFTECİ YUSUF</strong> Çiğ Sucuk almak için ;
+                  <br />
+                  <strong>KÖFTECİ YUSUF</strong> Çiğ Sucuk almak için ;
                   <a
                     href="https://kofteciyusuf.com/baton-sucuk.html"
                     style="color:#fa9628"
                   >https://kofteciyusuf.com/baton-sucuk.html</a> adresine tıklayabilirsiniz.
                   <br />
-                  <br /><strong>KÖFTECİ YUSUF</strong> Izgara Sucuk almak için ;
+                  <br />
+                  <strong>KÖFTECİ YUSUF</strong> Izgara Sucuk almak için ;
                   <a
                     style="color:#fa9628"
                     href="https://kofteciyusuf.com/sucuk.html"
@@ -425,6 +435,33 @@
     </div>
   </div>
 </template>
+
+<script>
+import Loading from "vue-loading-overlay";
+import "vue-loading-overlay/dist/vue-loading.css";
+
+export default {
+  data() {
+    return {
+      isLoading: false,
+      fullPage: true
+    };
+  },
+
+  components: {
+    Loading
+  },
+  methods: {
+    doAjax() {
+      this.isLoading = true;
+      // simulate AJAX
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 5000);
+    }
+  }
+};
+</script>
 
 <style scoped>
 .genel-box {
