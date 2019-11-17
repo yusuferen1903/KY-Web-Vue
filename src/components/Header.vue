@@ -1,5 +1,13 @@
 <template>
   <div>
+    <div class="vld-parent">
+      <loading
+        :active.sync="isLoading"
+        :can-cancel="true"
+        :on-cancel="onCancel"
+        :is-full-page="fullPage"
+      ></loading>
+    </div>
     <div class="ust">
       <div class="ust2">
         <div class="ust3">
@@ -9,7 +17,7 @@
         </div>
 
         <div class="ustyazilar1">
-          <ul class="ustyazilar">
+          <ul class="ustyazilar" @click="doAjax">
             <li>
               <a href="#">
                 <span>Ürünlerimiz</span>
@@ -51,7 +59,7 @@
         <div class="sagust">
           <div class="sagust2">
             <div>
-              <a href="tel:4446162" class="turuncu">
+              <a href="tel:4446162" class="turuncu" @click="doAjax">
                 <svg
                   x="0px"
                   y="0px"
@@ -88,7 +96,7 @@
             </div>
 
             <div style="padding-left: 25px; padding-right: 25px;">
-              <a href="/Favori-urunlerimiz" class="kirmizibuton">
+              <a href="/Favori-urunlerimiz" class="kirmizibuton" @click="doAjax">
                 <svg width="40px" height="40px" style="vertical-align: middle;">
                   <image
                     x="0px"
@@ -106,7 +114,7 @@
               </a>
             </div>
 
-            <div class="sepet">
+            <div class="sepet" @click="doAjax">
               <router-link to="/Sepetim">
                 <svg
                   x="0px"
@@ -157,20 +165,20 @@
         </div>
         <div class="girisbutonlar">
           <div class="giristurkir">
-            <a href="/Giris">
+            <a href="/Giris" @click="doAjax">
               <button type="submit" class="giriskirmizi">Giriş Yap</button>
             </a>
           </div>
           <!-- UYE OL BUTONU BASINCA UYELİK SAYFASINA GİDİYOR -->
           <div class="giristurkir">
-            <a href="/Uyelik" class="giristuruncu">Üye Ol</a>
+            <a href="/Uyelik" class="giristuruncu" @click="doAjax">Üye Ol</a>
           </div>
         </div>
       </div>
     </div>
     <!-- navigation bar eklendi -->
     <div class="navbar yazitipi">
-      <ul>
+      <ul @click="doAjax">
         <li class="dropdown" style="margin-left:28%">
           <a href="CigUrunler" class="dropbtn">Çiğ Ürünler</a>
           <div class="dropdown-content">
@@ -209,7 +217,20 @@
 </template>
 
 <script>
+import Loading from "vue-loading-overlay";
+import "vue-loading-overlay/dist/vue-loading.css";
 export default {
+  data() {
+    return {
+      isLoading: false,
+      fullPage: true
+    };
+  },
+
+  components: {
+    Loading
+  },
+
   el: "#app5",
   methods: {
     closeNav() {
@@ -218,6 +239,13 @@ export default {
     openNav() {
       this.$refs.myNav.style.width = "100%";
       this.$refs.myNav.style.height = "28.3%";
+    },
+    doAjax() {
+      this.isLoading = true;
+      // simulate AJAX
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 5000);
     }
   }
 };

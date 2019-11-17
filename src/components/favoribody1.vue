@@ -1,11 +1,19 @@
 <template>
   <div>
+    <div class="vld-parent">
+      <loading
+        :active.sync="isLoading"
+        :can-cancel="true"
+        :on-cancel="onCancel"
+        :is-full-page="fullPage"
+      ></loading>
+    </div>
     <div class="genel-box">
       <div class="satir">
         <div class="sol-kol-1">
           <!-- SOL TARAFTAKİ MENÜ BURDA EKLENMEYE BAŞLANDI-->
           <h3 class="tablo-cizgi baslik tablo-boyut tablo-genel">ÜRÜN KATEGORİLERİ</h3>
-          <ul class="kategori-list duzen gorunus">
+          <ul class="kategori-list duzen gorunus" @click="doAjax">
             <li class>
               <a href="/CigUrunler">Çiğ Ürünler</a>
               <i>
@@ -107,7 +115,7 @@
         <div class="orta-kol-1">
           <h3 class="tablo-cizgi baslik-boyut orta-ayar orta-boy">Favori Ürünlerimiz</h3>
           <div>
-            <button @click="doAjax" class="gorunumdegis">3'LÜ GÖSTER</button>
+            <button @click="goster2" class="gorunumdegis">3'LÜ GÖSTER</button>
             <!-- RESİMLİ OLAN FAVORİ ÜRÜNLER İSE BURDA EKLENMEYE BAŞLANDI -->
             <div class="satir tablo-boyut" v-show="goster3lu">
               <div class="kolonlar2 kolon-boyut">
@@ -529,16 +537,23 @@
 </template>
 
 <script>
+import Loading from "vue-loading-overlay";
+import "vue-loading-overlay/dist/vue-loading.css";
 export default {
   el: "#app",
   data() {
     return {
       goster3lu: true,
-      goster4lu: false
+      goster4lu: false,
+      isLoading: false,
+      fullPage: true
     };
   },
+  components: {
+    Loading
+  },
   methods: {
-    doAjax() {
+    goster2() {
       this.goster3lu = true;
       this.goster4lu = false;
       // simulate AJAX
@@ -547,6 +562,13 @@ export default {
       this.goster4lu = true;
       this.goster3lu = false;
       // simulate AJAX
+    },
+    doAjax() {
+      this.isLoading = true;
+      // simulate AJAX
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 5000);
     }
   }
 };
