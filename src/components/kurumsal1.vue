@@ -222,7 +222,7 @@
               </i>
             </li>
             <li class>
-              <a href="./">Öneri ve Şikayet</a>
+              <a href="/OneriSikayet">Öneri ve Şikayet</a>
               <i>
                 <svg viewBox="0 0 320 512">
                   <path
