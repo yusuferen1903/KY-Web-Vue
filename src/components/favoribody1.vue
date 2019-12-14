@@ -556,16 +556,16 @@ export default {
     goster2() {
       this.goster3lu = true;
       this.goster4lu = false;
-      // simulate AJAX
+    
     },
     goster() {
       this.goster4lu = true;
       this.goster3lu = false;
-      // simulate AJAX
+      
     },
     doAjax() {
       this.isLoading = true;
-      // simulate AJAX
+      
       setTimeout(() => {
         this.isLoading = false;
       }, 5000);
