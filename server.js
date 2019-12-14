@@ -10,6 +10,7 @@ app.get('/CigUrunler', function (req, res) {
         res.end(data)
     })
 
+
 })
 app.get('/IzgaraEtler', function (req, res) {
 
@@ -33,43 +34,62 @@ app.get('/ekle', function (req, res) {
     //hangi json belgesine eklenmek isteneceği aşağıdaki tırnak içindeki datalara girilmelidir
     fs.readFile('CigUrunler.json', 'utf8', function (err, data) {
         data = JSON.parse(data);
-        data[""] = yeniurun[""]
+        data["AtEti4"] = yeniurun["AtEti4"]
         console.log(data);
-        res.end(JSON.stringify(data))
+        res.end("Urun Eklendi")
         fs.writeFile('CigUrunler.json', JSON.stringify(data), function (err) {
-            console.log('bir hata olustu');
+
         });
     })
     fs.readFile('IzgaraEtler.json', 'utf8', function (err, data) {
         data = JSON.parse(data);
         data["AtEti4"] = yeniurun["AtEti4"]
         console.log(data);
-        res.end(JSON.stringify(data))
+        res.end("Urun Eklendi")
         fs.writeFile('IzgaraEtler.json', JSON.stringify(data), function (err) {
-            console.log('bir hata olustu');
+
         });
     })
 })
 app.get('/sil', function (req, res) {
+    //silme işlemi için silmek istediğiniz ürün id ismini delete datadan sonra giriniz
     fs.readFile('CigUrunler.json', 'utf8', function (err, data) {
         data = JSON.parse(data);
         //Silinmesi İstenen Ürünün Adı Buraya Girilmeli
-        delete data["AtEti2"]
+        delete data[""]
         console.log(data);
-        res.end(JSON.stringify(data))
+        res.end("Urun Silindi")
         fs.writeFile('CigUrunler.json', JSON.stringify(data), function (err) {
-            console.log('bir hata olustu');
+
+        });
+    })
+
+    fs.readFile('IzgaraEtler.json', 'utf8', function (err, data) {
+        data = JSON.parse(data);
+        //Silinmesi İstenen Ürünün Adı Buraya Girilmeli
+        delete data["AtEti4"]
+        console.log(data);
+        res.end("Urun Silindi")
+        fs.writeFile('IzgaraEtler.json', JSON.stringify(data), function (err) {
+
         });
     })
 })
 
 app.get('/urunbul', function (req, res) {
+    //Bulunması istenen ürünün adı console.log dan sonraki dataya girdi olarak verilmelidir
+
+    fs.readFile('IzgaraEtler.json', 'utf8', function (err, data) {
+        data = JSON.parse(data);
+        //Bulunması  İstenen Ürünün Adı Buraya Girilmeli
+        console.log(data["Sucuk"]);
+        res.end(JSON.stringify(data["Sucuk"]))
+    })
     fs.readFile('CigUrunler.json', 'utf8', function (err, data) {
         data = JSON.parse(data);
         //Bulunması  İstenen Ürünün Adı Buraya Girilmeli
         console.log(data["Kofte"]);
         res.end(JSON.stringify(data["Kofte"]))
-
     })
 })
 
