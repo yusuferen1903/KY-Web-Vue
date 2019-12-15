@@ -4,20 +4,32 @@
       <section class="giristablo">
         <form>
           <!-- REQUİRED SAYESİNDE BOŞ KALINCA UYARI GELİYOR -->
-          <input
-            type="text"
-            name="email"
-            required
-            autofocus="autofocus"
-            class="inputs"
-            placeholder="Eposta Adresiniz Yada Gsm No *"
-          />
-          <input type="password" name="password" required class="inputs" placeholder="Parolanız" />
+          <div id="app">
+            <input
+              type="text"
+              name="email"
+              required
+              autofocus="autofocus"
+              class="inputs"
+              placeholder="Eposta Adresiniz Yada Gsm No *"
+              v-model="todoName"
+            />
+          </div>
+          <div id="app">
+            <input
+              type="password"
+              name="password"
+              required
+              class="inputs"
+              placeholder="Parolanız"
+              v-model="todoPassword"
+            />
+          </div>
 
           <!-- BUTON OLUŞTURMA -->
           <div class="girisbutonlar">
             <div class="giristurkir">
-              <button type="submit" class="giriskirmizi">Giriş Yap</button>
+              <button type="submit" @click="addTodo" class="giriskirmizi">Giriş Yap</button>
             </div>
             <!-- UYE OL BUTONU BASINCA UYELİK SAYFASINA GİDİYOR -->
             <div class="giristurkir">
@@ -44,6 +56,45 @@
     </div>
   </div>
 </template>
+<script>
+import axios from "axios";
+
+const baseURL = "http://localhost:3000/Kullanicilar";
+
+export default {
+  name: "app",
+  data() {
+    return {
+      Kullanicilar: [],
+      todoName: "",
+      todoPassword: ""
+    };
+  },
+  async created() {
+    try {
+      const res = await axios.get(baseURL);
+
+      this.Kullanicilar = res.data;
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+  },
+  methods: {
+    async addTodo() {
+      const res = await axios.post(baseURL, {
+        KullaniciAdi: this.todoName,
+        Parola: this.todoPassword
+      });
+
+      this.Kullanicilar = [...this.Kullanicilar, res.data];
+
+      this.todoName = "";
+      this.todoPassword = "";
+    }
+  }
+};
+</script>
 
 <style scoped>
 .girisarkaplan {

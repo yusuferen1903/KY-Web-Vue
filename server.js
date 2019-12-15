@@ -2,7 +2,6 @@ var express = require('express'),
     app = express();
 fs = require('fs');
 var bodyParser = require("body-parser")
-var _ = require("underscore");
 app.use(bodyParser.json());
 
 //Tüm ürünleri listele

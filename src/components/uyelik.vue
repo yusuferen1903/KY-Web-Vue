@@ -4,15 +4,16 @@
       <section class="uyeliktablo">
         <div style="padding: 15px">
           <form class="uyeliktablo2">
-            <div class="uyelikyazilar">
+            <div  class="uyelikyazilar" id="app" >
               <!-- DÜZ YAZI OLMASI GEREKEN ŞEYLER BURDA EKLENDİ-->
-              <input type="text" required name="name" class="inputs" placeholder="Adınız *" />
+              <input v-model="todoName" type="text" required name="name" class="inputs" placeholder="Adınız *" />
             </div>
-            <div class="uyelikyazilar">
-              <input type="text" required name="surname" class="inputs" placeholder="Soyadınız *" />
+            <div class="uyelikyazilar" id="app">
+              <input v-model="todoSurname" type="text" required name="surname" class="inputs" placeholder="Soyadınız *" />
             </div>
-            <div class="uyelikyazilar">
+            <div class="uyelikyazilar" id="app">
               <input
+              v-model="todomail"
                 type="email"
                 required
                 name="email"
@@ -20,8 +21,9 @@
                 placeholder="Email Adresiniz *"
               />
             </div>
-            <div class="uyelikyazilar">
+            <div class="uyelikyazilar" id="app">
               <input
+              v-model="todotelephone"
                 type="text"
                 required
                 name="telephone"
@@ -29,8 +31,9 @@
                 placeholder="Telefon Numarınız *"
               />
             </div>
-            <div class="uyelikyazilar">
+            <div class="uyelikyazilar" id="app">
               <input
+              v-model="todopassword"
                 type="password"
                 required
                 name="password"
@@ -38,22 +41,22 @@
                 placeholder="Parolanız *"
               />
             </div>
-            <div class="uyelikyazilar">
+            <div class="uyelikyazilar" id="app">
               <!-- DROPDOWNBOX YANİ SEÇMELİ ŞEYLER BURDA OPTİON KULLNAILARK EKLENDİ -->
-              <select name="addres-type" required class="inputs">
+              <select v-model="todoaddrestype" name="addres-type" required class="inputs">
                 <option value>Adres Tipi *</option>
-                <option value="1">Ev</option>
-                <option value="2">İş</option>
-                <option value="3">Diğer</option>
+                <option value="Ev">Ev</option>
+                <option value="Iş">İş</option>
+                <option value="Diger">Diğer</option>
               </select>
             </div>
 
-            <div class="uyelikyazilar">
-              <select name="provinces" required class="inputs">
+            <div class="uyelikyazilar" id="app">
+              <select v-model="todoprovinces" name="provinces" required class="inputs">
                 <option value>-</option>
-                <option value="1">Bursa</option>
-                <option value="2">Eskişehir</option>
-                <option value="3">Yalova</option>
+                <option value="Bursa">Bursa</option>
+                <option value="Eskişehir">Eskişehir</option>
+                <option value="Yalova">Yalova</option>
               </select>
             </div>
 
@@ -108,7 +111,7 @@
             </div>
 
             <div class="uyeliktamamla">
-              <button type="submit" class="uyeliktamamlabuton">Üyeliğimi Tamamla</button>
+              <button @click="addTodo"  type="submit" class="uyeliktamamlabuton">Üyeliğimi Tamamla</button>
             </div>
           </form>
         </div>
@@ -116,6 +119,58 @@
     </div>
   </div>
 </template>
+<script>
+import axios from "axios";
+
+const baseURL = "http://localhost:3000/Uyeler";
+
+export default {
+  name: "app",
+  data() {
+    return {
+      Uyeler: [],
+      todoName: "",
+      todoSurname: "",
+      todomail:"",
+      todotelephone:"",
+      todoaddrestype:"",
+    };
+  },
+  async created() {
+    try {
+      const res = await axios.get(baseURL);
+
+      this.Uyeler = res.data;
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+  },
+  methods: {
+    async addTodo() {
+      const res = await axios.post(baseURL, {
+        Isim: this.todoName,
+        Soyad: this.todoSurname,
+        Mail: this.todomail,
+        Telefon: this.todotelephone,
+        Parola: this.todopassword,
+        AdresTipi:this.todoaddrestype,
+        Sehir: this.todoprovinces,
+      });
+
+      this.Uyeler = [...this.Uyeler, res.data];
+
+      this.todoName = "";
+      this.todoSurname = "";
+      this.todomail="";
+      this.todotelephone="";
+      this.todopassword="";
+      this.todoaddrestype="";
+      this.todoprovinces="";
+    }
+  }
+};
+</script>
 
 <style scoped>
 .uyeliktablo {

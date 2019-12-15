@@ -1,31 +1,44 @@
 <template>
-  <v-row justify="center">
-    <v-btn color="primary" dark @click.stop="dialog = true">Open Dialog</v-btn>
-
-    <v-dialog v-model="dialog" max-width="290">
-      <v-card>
-        <v-card-title class="headline">Use Google's location service?</v-card-title>
-
-        <v-card-text>Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.</v-card-text>
-
-        <v-card-actions>
-          <v-spacer></v-spacer>
-
-          <v-btn color="green darken-1" text @click="dialog = false">Disagree</v-btn>
-
-          <v-btn color="green darken-1" text @click="dialog = false">Agree</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
-  </v-row>
+  <div id="app">
+    <h1>Todos</h1>
+    <input type="text" v-model="todoName" @keyup.enter="addTodo" />
+    <ul>
+      <li v-for="todo of todos" :key="todo.id">{{todo.name}}</li>
+    </ul>
+  </div>
 </template>
 
 <script>
+import axios from "axios";
+
+const baseURL = "http://localhost:3000/todos";
+
 export default {
+  name: "app",
   data() {
     return {
-      dialog: false
+      todos: [],
+      todoName: ""
     };
+  },
+  async created() {
+    try {
+      const res = await axios.get(baseURL);
+
+      this.todos = res.data;
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+  },
+  methods: {
+    async addTodo() {
+      const res = await axios.post(baseURL, { name: this.todoName });
+
+      this.todos = [...this.todos, res.data];
+
+      this.todoName = "";
+    }
   }
 };
 </script>
