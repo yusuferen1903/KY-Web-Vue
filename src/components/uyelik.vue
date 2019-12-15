@@ -145,7 +145,7 @@ export default {
       /* eslint-disable no-console */
       console.error(e);
     }
-  },
+  }, 
   methods: {
     async addTodo() {
       const res = await axios.post(baseURL, {
@@ -157,6 +157,7 @@ export default {
         AdresTipi:this.todoaddrestype,
         Sehir: this.todoprovinces,
       });
+
 
       this.Uyeler = [...this.Uyeler, res.data];
 
