@@ -190,7 +190,7 @@ app.post('/KahvaltiVeYan', function (req, res) {
         data["AtEti4"] = yeniurun["AtEti4"]
         console.log(data);
         res.end("Urun Eklendi")
-        fs.writeFile('KahbaltiVeYan.json', JSON.stringify(data), function (err) {
+        fs.writeFile('KahvaltiVeYan.json', JSON.stringify(data), function (err) {
 
         });
     })
