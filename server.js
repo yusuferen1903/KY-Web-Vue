@@ -21,6 +21,15 @@ app.get('/IzgaraEtler', function (req, res) {
     })
 
 })
+app.get('/KahvaltiVeYan', function (req, res) {
+
+    //res.send('ürünleri listeler');
+    fs.readFile('KahvaltiVeYan.json', 'utf8', function (err, data) {
+        console.log(data);
+        res.end(data)
+    })
+
+})
 app.get('/ekle', function (req, res) {
     //res.end('ürün ekler');
     //eklenecek ürünün bilgileri buraya girilmeli
@@ -50,6 +59,15 @@ app.get('/ekle', function (req, res) {
 
         });
     })
+    fs.readFile('KahvaltiVeYan.json', 'utf8', function (err, data) {
+        data = JSON.parse(data);
+        data["AtEti4"] = yeniurun["AtEti4"]
+        console.log(data);
+        res.end("Urun Eklendi")
+        fs.writeFile('KahvaltiVeYan.json', JSON.stringify(data), function (err) {
+
+        });
+    })
 })
 app.get('/sil', function (req, res) {
     //silme işlemi için silmek istediğiniz ürün id ismini delete datadan sonra giriniz
@@ -71,6 +89,16 @@ app.get('/sil', function (req, res) {
         console.log(data);
         res.end("Urun Silindi")
         fs.writeFile('IzgaraEtler.json', JSON.stringify(data), function (err) {
+
+        });
+    })
+    fs.readFile('KahvaltiVeYan.json', 'utf8', function (err, data) {
+        data = JSON.parse(data);
+        //Silinmesi İstenen Ürünün Adı Buraya Girilmeli
+        delete data["AtEti4"]
+        console.log(data);
+        res.end("Urun Silindi")
+        fs.writeFile('KahvaltiVeYan.json', JSON.stringify(data), function (err) {
 
         });
     })
