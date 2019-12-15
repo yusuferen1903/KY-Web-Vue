@@ -1,0 +1,26 @@
+{
+    "DonerDurum": {
+        "id": 1,
+        "urunismi": "Doner Durum",
+        "Fiyat": "13.50TL",
+        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+    },
+    "MercimekCorbasi": {
+        "id": 2,
+        "urunismi": "Mercimek Corbasi",
+        "Fiyat": "6TL",
+        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+    },
+    "DonerEkmekArasi": {
+        "id": 3,
+        "urunismi": "Doner Ekmek Arasi",
+        "Fiyat": "13.50TL",
+        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+    },
+    "PorsiyonDoner": {
+        "id": 4,
+        "urunismi": "PorsiyonDoner",
+        "Fiyat": "18TL",
+        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+    }
+}
