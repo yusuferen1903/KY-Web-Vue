@@ -159,6 +159,50 @@ app.post('/IzgaraEtler', function (req, res) {
         });
     })
 })
+//Kahvaltı ve Yan Ürünler için Post İşlemi
+app.post('/KahvaltiVeYan', function (req, res) {
+    //silme işlemi için silmek istediğiniz ürün id ismini delete datadan sonra giriniz
+    var yeniurun = {
+        "AtEti4": {
+            "id": 51,
+            "urunismi": "At",
+            "Fiyat": "10TL/200GR",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_yusuf-kofte_27.07.2019_08_16_05.jpg"
+        }
+    };
+    //hangi json belgesine eklenmek isteneceği aşağıdaki tırnak içindeki datalara girilmelidir
+    fs.readFile('KahvaltiVeYan.json', 'utf8', function (err, data) {
+        data = JSON.parse(data);
+        data["AtEti4"] = yeniurun["AtEti4"]
+        console.log(data);
+        res.end("Urun Eklendi")
+        fs.writeFile('KahbaltiVeYan.json', JSON.stringify(data), function (err) {
+
+        });
+    })
+})
+//Doner ürünleri için post işlemi
+app.post('/Doner', function (req, res) {
+    //silme işlemi için silmek istediğiniz ürün id ismini delete datadan sonra giriniz
+    var yeniurun = {
+        "AtEti4": {
+            "id": 52,
+            "urunismi": "At",
+            "Fiyat": "10TL/200GR",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_yusuf-kofte_27.07.2019_08_16_05.jpg"
+        }
+    };
+    //hangi json belgesine eklenmek isteneceği aşağıdaki tırnak içindeki datalara girilmelidir
+    fs.readFile('Doner.json', 'utf8', function (err, data) {
+        data = JSON.parse(data);
+        data["AtEti4"] = yeniurun["AtEti4"]
+        console.log(data);
+        res.end("Urun Eklendi")
+        fs.writeFile('Doner.json', JSON.stringify(data), function (err) {
+
+        });
+    })
+})
 
 
 
