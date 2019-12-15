@@ -70,6 +70,9 @@ app.delete('/CigUrunler', function (req, res) {
         fs.writeFile('CigUrunler.json', JSON.stringify(data), function (err) {
 
         });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
+
+        });
     })
 })
 //Izgara etler için delete işlemi
@@ -82,6 +85,9 @@ app.delete('/IzgaraEtler', function (req, res) {
         console.log(data);
         res.end("Urun Silindi")
         fs.writeFile('IzgaraEtler.json', JSON.stringify(data), function (err) {
+
+        });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
 
         });
     })
@@ -98,6 +104,9 @@ app.delete('/KahvaltiVeYan', function (req, res) {
         fs.writeFile('KahvaltiVeYan.json', JSON.stringify(data), function (err) {
 
         });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
+
+        });
     })
 })
 //Doner için delete işlemi
@@ -110,6 +119,9 @@ app.delete('/Doner', function (req, res) {
         console.log(data);
         res.end("Urun Silindi")
         fs.writeFile('Doner.json', JSON.stringify(data), function (err) {
+
+        });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
 
         });
     })
@@ -135,6 +147,9 @@ app.post('/CigUrunler', function (req, res) {
         fs.writeFile('CigUrunler.json', JSON.stringify(data), function (err) {
 
         });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
+
+        });
     })
 })
 //Izgara Etler için Post İşlemi
@@ -155,6 +170,9 @@ app.post('/IzgaraEtler', function (req, res) {
         console.log(data);
         res.end("Urun Eklendi")
         fs.writeFile('IzgaraEtler.json', JSON.stringify(data), function (err) {
+
+        });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
 
         });
     })
@@ -179,6 +197,9 @@ app.post('/KahvaltiVeYan', function (req, res) {
         fs.writeFile('KahbaltiVeYan.json', JSON.stringify(data), function (err) {
 
         });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
+
+        });
     })
 })
 //Doner ürünleri için post işlemi
@@ -199,6 +220,9 @@ app.post('/Doner', function (req, res) {
         console.log(data);
         res.end("Urun Eklendi")
         fs.writeFile('Doner.json', JSON.stringify(data), function (err) {
+
+        });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
 
         });
     })
@@ -226,6 +250,9 @@ app.get('/ekle', function (req, res) {
         fs.writeFile('CigUrunler.json', JSON.stringify(data), function (err) {
 
         });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
+
+        });
     })
     fs.readFile('IzgaraEtler.json', 'utf8', function (err, data) {
         data = JSON.parse(data);
@@ -233,6 +260,9 @@ app.get('/ekle', function (req, res) {
         console.log(data);
         res.end("Urun Eklendi")
         fs.writeFile('IzgaraEtler.json', JSON.stringify(data), function (err) {
+
+        });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
 
         });
     })
@@ -244,6 +274,9 @@ app.get('/ekle', function (req, res) {
         fs.writeFile('KahvaltiVeYan.json', JSON.stringify(data), function (err) {
 
         });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
+
+        });
     })
     fs.readFile('Doner.json', 'utf8', function (err, data) {
         data = JSON.parse(data);
@@ -251,6 +284,9 @@ app.get('/ekle', function (req, res) {
         console.log(data);
         res.end("Urun Eklendi")
         fs.writeFile('Doner.json', JSON.stringify(data), function (err) {
+
+        });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
 
         });
     })
@@ -267,6 +303,9 @@ app.get('/sil', function (req, res) {
         fs.writeFile('CigUrunler.json', JSON.stringify(data), function (err) {
 
         });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
+
+        });
     })
 
     fs.readFile('IzgaraEtler.json', 'utf8', function (err, data) {
@@ -276,6 +315,9 @@ app.get('/sil', function (req, res) {
         console.log(data);
         res.end("Urun Silindi")
         fs.writeFile('IzgaraEtler.json', JSON.stringify(data), function (err) {
+
+        });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
 
         });
     })
@@ -288,6 +330,9 @@ app.get('/sil', function (req, res) {
         fs.writeFile('KahvaltiVeYan.json', JSON.stringify(data), function (err) {
 
         });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
+
+        });
     })
     fs.readFile('Doner.json', 'utf8', function (err, data) {
         data = JSON.parse(data);
@@ -298,7 +343,12 @@ app.get('/sil', function (req, res) {
         fs.writeFile('Doner.json', JSON.stringify(data), function (err) {
 
         });
+        fs.writeFile('tumurunler.json', JSON.stringify(data), function (err) {
+
+        });
     })
+
+
 })
 //adres çubuğunda ürün bulmak için
 app.get('/urunbul', function (req, res) {
