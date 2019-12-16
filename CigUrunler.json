@@ -7,105 +7,252 @@
             "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_yusuf-kofte_27.07.2019_08_16_05.jpg"
         }
     ],
-    "KasapSucuk": {
-        "id": 2,
-        "urunismi": "Kasap Sucuk",
-        "Fiyat": "44TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_kasap-sucuk_23.09.2019_07_09_27.jpg"
-    },
-    "BatonSucuk": {
-        "id": 3,
-        "urunismi": "Baton Sucuk",
-        "Fiyat": "44TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_baton-sucuk_27.09.2019_11_41_50.jpg"
-    },
-    "DanaKiyma": {
-        "id": 4,
-        "urunismi": "Dana Kiyma",
-        "Fiyat": "42TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-kiyma_27.07.2019_11_48_45.jpg"
-    },
-    "DanaKusbasi": {
-        "id": 5,
-        "urunismi": "Dana Kusbasi",
-        "Fiyat": "46TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-kusbasi_27.07.2019_12_31_07.jpg"
-    },
-    "DanaBonfile": {
-        "id": 6,
-        "urunismi": "Dana Bonfile",
-        "Fiyat": "96TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "DanaBiftek": {
-        "id": 7,
-        "urunismi": "Dana Biftek",
-        "Fiyat": "32TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "PilicKanatSoslu": {
-        "id": 8,
-        "urunismi": "Pilic Kanat Soslu",
-        "Fiyat": "32TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "KuzuPirzola": {
-        "id": 9,
-        "urunismi": "Kuzu Pirzola",
-        "Fiyat": "84TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "KuzuSis": {
-        "id": 10,
-        "urunismi": "Kuzu Sis",
-        "Fiyat": "64TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "KuzuBeyti": {
-        "id": 11,
-        "urunismi": "Kuzu Beyti",
-        "Fiyat": "64TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "DanaAntrikot": {
-        "id": 12,
-        "urunismi": "Dana Antrikot",
-        "Fiyat": "66TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "DanaBonfile2": {
-        "id": 13,
-        "urunismi": "Dana Bonfile",
-        "Fiyat": "46TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "DanaKavurma": {
-        "id": 14,
-        "urunismi": "Dana Kavurma",
-        "Fiyat": "78TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "DanaTranc": {
-        "id": 15,
-        "urunismi": "Dana Tranc",
-        "Fiyat": "46TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "KiymaCigKoftelik": {
-        "id": 16,
-        "urunismi": "Kiyma Cig Koftelik",
-        "Fiyat": "38TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "DanaKaburga": {
-        "id": 17,
-        "urunismi": "Dana Kaburga",
-        "Fiyat": "38TL/KG",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
-    },
-    "AtEti4": {
-        "urunismi": "At",
-        "Fiyat": "10TL/200GR",
-        "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_yusuf-kofte_27.07.2019_08_16_05.jpg"
-    }
+    "KasapSucuk": [
+        {
+            "id": 2,
+            "urunismi": "Kasap Sucuk",
+            "Fiyat": "44TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_kasap-sucuk_23.09.2019_07_09_27.jpg"
+        }
+    ],
+    "BatonSucuk": [
+        {
+            "id": 3,
+            "urunismi": "Baton Sucuk",
+            "Fiyat": "44TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_baton-sucuk_27.09.2019_11_41_50.jpg"
+        }
+    ],
+    "DanaKiyma": [
+        {
+            "id": 4,
+            "urunismi": "Dana Kiyma",
+            "Fiyat": "42TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-kiyma_27.07.2019_11_48_45.jpg"
+        }
+    ],
+    "DanaKusbasi": [
+        {
+            "id": 5,
+            "urunismi": "Dana Kusbasi",
+            "Fiyat": "46TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-kusbasi_27.07.2019_12_31_07.jpg"
+        }
+    ],
+    "DanaBonfile": [
+        {
+            "id": 6,
+            "urunismi": "Dana Bonfile",
+            "Fiyat": "96TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "DanaBiftek": [
+        {
+            "id": 7,
+            "urunismi": "Dana Biftek",
+            "Fiyat": "32TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "PilicKanatSoslu": [
+        {
+            "id": 8,
+            "urunismi": "Pilic Kanat Soslu",
+            "Fiyat": "32TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuPirzola": [
+        {
+            "id": 9,
+            "urunismi": "Kuzu Pirzola",
+            "Fiyat": "84TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuSis": [
+        {
+            "id": 10,
+            "urunismi": "Kuzu Sis",
+            "Fiyat": "64TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuBeyti": [
+        {
+            "id": 11,
+            "urunismi": "Kuzu Beyti",
+            "Fiyat": "64TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "DanaAntrikot": [
+        {
+            "id": 12,
+            "urunismi": "Dana Antrikot",
+            "Fiyat": "66TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "DanaNuar": [
+        {
+            "id": 13,
+            "urunismi": "Dana Nuar",
+            "Fiyat": "46TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "DanaKavurma": [
+        {
+            "id": 14,
+            "urunismi": "Dana Kavurma",
+            "Fiyat": "78TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "DanaTranc": [
+        {
+            "id": 15,
+            "urunismi": "Dana Tranc",
+            "Fiyat": "46TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KiymaCigKoftelik": [
+        {
+            "id": 16,
+            "urunismi": "Kiyma Cig Koftelik",
+            "Fiyat": "38TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "DanaKaburga": [
+        {
+            "id": 17,
+            "urunismi": "Dana Kaburga",
+            "Fiyat": "38TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuKulbasti": [
+        {
+            "id": 18,
+            "urunismi": "Kuzu Kulbasti",
+            "Fiyat": "64TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuIncik": [
+        {
+            "id": 19,
+            "urunismi": "Kuzu Incik",
+            "Fiyat": "46TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuButKemikli": [
+        {
+            "id": 20,
+            "urunismi": "Kuzu But Kemikli",
+            "Fiyat": "54TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuButKemiksiz": [
+        {
+            "id": 21,
+            "urunismi": "Kuzu But Kemiksiz",
+            "Fiyat": "64TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuKolKemikli": [
+        {
+            "id": 22,
+            "urunismi": "Kuzu Kol Kemikli",
+            "Fiyat": "50TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuDosKemiksiz": [
+        {
+            "id": 23,
+            "urunismi": "Kuzu Dos Kemiksiz",
+            "Fiyat": "64TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuBobrek": [
+        {
+            "id": 24,
+            "urunismi": "Kuzu Bobrek",
+            "Fiyat": "42TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "BobrekYatagiKemiksiz": [
+        {
+            "id": 25,
+            "urunismi": "Bobrek Yatagi Kemiksiz",
+            "Fiyat": "80TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuKiyma": [
+        {
+            "id": 26,
+            "urunismi": "Kuzu Kiyma",
+            "Fiyat": "64TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuButun": [
+        {
+            "id": 27,
+            "urunismi": "KuzuButun",
+            "Fiyat": "46TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuKusbasiKemiksiz": [
+        {
+            "id": 28,
+            "urunismi": "Kuzu Kusbasi Kemiksiz",
+            "Fiyat": "64TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuzuGerdan": [
+        {
+            "id": 29,
+            "urunismi": "Kuzu Gerdan",
+            "Fiyat": "40TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "PilicIncikSoslu": [
+        {
+            "id": 30,
+            "urunismi": "Pilic Incik Soslu",
+            "Fiyat": "32TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "Pastirma": [
+        {
+            "id": 31,
+            "urunismi": "Pastirma",
+            "Fiyat": "98TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ],
+    "KuyrukYagi": [
+        {
+            "id": 32,
+            "urunismi": "Kuyruk Yagi",
+            "Fiyat": "50TL/KG",
+            "Resim": "https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg"
+        }
+    ]
 }
