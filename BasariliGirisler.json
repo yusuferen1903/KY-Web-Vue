@@ -1,3 +1,14 @@
 {
-  "Uyeler": []
+  "Kullanicilar": [
+    {
+      "KullaniciAdi": "yusuferenuneyler@gmail.com",
+      "Parola": "123456789",
+      "id": 1
+    },
+    {
+      "KullaniciAdi": "azam_fb@gmail.com",
+      "Parola": "147258369",
+      "id": 2
+    }
+  ]
 }

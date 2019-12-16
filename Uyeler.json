@@ -9,6 +9,16 @@
       "AdresTipi": "Iş",
       "Sehir": "Yalova",
       "id": 1
+    },
+    {
+      "Isim": "Azam",
+      "Soyad": "Ameti",
+      "Mail": "azam_fb@gmail.com",
+      "Telefon": "05356899874",
+      "Parola": "147258369",
+      "AdresTipi": "Ev",
+      "Sehir": "Bursa",
+      "id": 2
     }
   ]
 }

@@ -128,9 +128,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_yusuf-kofte_27.07.2019_08_16_05.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius: 0 0 20px 20px;">
-                            <h3 class="h3yazilar">Köfte</h3>
+                            <h3 class="h3yazilar" v-for="todo of Kofte" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">40.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of Kofte" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -590,6 +590,9 @@
 <script>
 import Loading from "vue-loading-overlay";
 import "vue-loading-overlay/dist/vue-loading.css";
+import axios from "axios";
+
+const baseURL = "http://localhost:3000/Kofte";
 
 export default {
   
@@ -597,12 +600,24 @@ export default {
     return {
       isLoading: false,
       fullPage: true,
+      Kofte: [],
+      todocomment: ""
       
     };
   },
   
   components: {
     Loading
+  },
+  async created() {
+    try {
+      const res = await axios.get(baseURL);
+
+      this.Kofte = res.data;
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
   },
   methods: {
     doAjax() {
@@ -611,6 +626,16 @@ export default {
       setTimeout(() => {
         this.isLoading = false;
       }, 5000 );
+    },
+    async addTodo() {
+      const res = await axios.post(baseURL, {
+        urunismi: this.todocomment,
+        Fiyat: this.todocomment
+      });
+
+      this.Kofte = [...this.Kofte, res.data];
+
+      this.todocomment = "";
     }
   }
 };
