@@ -12,7 +12,7 @@ import Doner from './Doner.vue'
 import CigUrunler from './CigUrunler.vue'
 import Kofte from './Kofte'
 import KofteCig from './KofteCig'
-import deneme from './deneme'
+import Yorumlar from './Yorumlar'
 import Sepetim from './Sepetim'
 import SSS from './SSS'
 import Kurumsal from './Kurumsal'
@@ -55,7 +55,7 @@ const routes = [
   { path: '/CigUrunler', component: CigUrunler },
   { path: '/Kofte', component: Kofte },
   { path: '/KofteCig', component: KofteCig },
-  { path: '/deneme', component: deneme },
+  { path: '/Yorumlar', component: Yorumlar },
   { path: '/Sepetim', component: Sepetim },
   { path: '/SSS', component: SSS },
   { path: '/Kurumsal', component: Kurumsal },

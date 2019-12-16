@@ -73,7 +73,7 @@
                       <a href="kvk-kanunu.html">KVK Kanunu</a>
                     </li>
                     <li>
-                      <a href="iletisim.html">Öneri ve Şikayet</a>
+                      <a href="/Yorumlar">Öneri ve Şikayet</a>
                     </li>
                     <li>
                       <a href="kullanim-kosullari.html">Kullanım Koşulları</a>
