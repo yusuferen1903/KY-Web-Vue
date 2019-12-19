@@ -19,6 +19,16 @@
       "AdresTipi": "Ev",
       "Sehir": "Bursa",
       "id": 2
+    },
+    {
+      "Isim": "deneme",
+      "Soyad": "deneme",
+      "Mail": "deneme@gmail.com",
+      "Telefon": "0555 555 55 55",
+      "Parola": "deneme123",
+      "AdresTipi": "Diger",
+      "Sehir": "Yalova",
+      "id": 3
     }
   ]
 }
