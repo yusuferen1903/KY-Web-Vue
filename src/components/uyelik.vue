@@ -134,6 +134,7 @@ export default {
       todomail:"",
       todotelephone:"",
       todoaddrestype:"",
+      todoprovinces: "",
     };
   },
   async created() {

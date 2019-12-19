@@ -141,9 +141,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kasap-sucuk_23.09.2019_07_09_27.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kasap Sucuk</h3>
+                            <h3 class="h3yazilar" v-for="todo of KasapSucuk" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">44.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KasapSucuk" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -154,9 +154,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_baton-sucuk_27.09.2019_11_41_50.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Baton Sucuk</h3>
+                            <h3 class="h3yazilar" v-for="todo of BatonSucuk" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">44.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of BatonSucuk" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -167,9 +167,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kiyma_27.07.2019_11_48_45.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Kıyma</h3>
+                            <h3 class="h3yazilar" v-for="todo of DanaKiyma" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">42.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of DanaKiyma" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -180,9 +180,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kusbasi_27.07.2019_12_31_07.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Kuşbaşı</h3>
+                            <h3 class="h3yazilar" v-for="todo of DanaKusbasi" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">46.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of DanaKusbasi" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -193,9 +193,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-bonfile_26.09.2019_04_45_56.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Bonfile</h3>
+                            <h3 class="h3yazilar" v-for="todo of DanaBonfile" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">96.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of DanaBonfile" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -206,9 +206,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/screen-shot-2015-05-18-at-175641_18_thumb.jpg" alt class="img-fluid">						
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Biftek/<br>Dana Kontrafile</h3>
+                            <h3 class="h3yazilar" v-for="todo of DanaBiftek" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">32.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of DanaBiftek" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -219,9 +219,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_tavuk-kanat-soslu_23.09.2019_06_00_03.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar" >Piliç Kanat Soslu</h3>
+                            <h3 class="h3yazilar"  v-for="todo of PilicKanatSoslu" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">32.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of PilicKanatSoslu" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -232,9 +232,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/pirzola_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Pirzola</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuPirzola" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">84.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuPirzola" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -245,9 +245,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/kuzusis_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Şiş</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuSis" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">64.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuSis" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -259,9 +259,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/beyti_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Beyti</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuBeyti" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">64.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuBeyti" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -273,9 +273,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-antrikot_27.07.2019_12_51_33.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Antrikot</h3>
+                            <h3 class="h3yazilar" v-for="todo of DanaAntrikot" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">66.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of DanaAntrikot" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -287,9 +287,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-nuar_03.10.2019_04_36_26.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Nuar</h3>
+                            <h3 class="h3yazilar" v-for="todo of DanaNuar" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">46.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of DanaNuar" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -301,9 +301,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kavurma_27.07.2019_01_29_58.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Kavurma</h3>
+                            <h3 class="h3yazilar" v-for="todo of DanaKavurma" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">78.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of DanaKavurma" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -315,9 +315,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-tranc_23.09.2019_06_59_49.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Tranç</h3>
+                            <h3 class="h3yazilar" v-for="todo of DanaTranc" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">46.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of DanaTranc" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -329,9 +329,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kiyma_30.09.2019_08_12_10.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kıyma /(Çiğ Köftelik)</h3>
+                            <h3 class="h3yazilar" v-for="todo of KiymaCigKoftelik" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">38.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KiymaCigKoftelik" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -343,9 +343,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/dana-kaburga_20_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Dana Kaburga</h3>
+                            <h3 class="h3yazilar" v-for="todo of DanaKaburga" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">38.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of DanaKaburga" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -357,9 +357,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-kul-basti_23.09.2019_06_37_10.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Külbastı</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuKulbasti" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">64.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuKulbasti" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -371,9 +371,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-incik_23.09.2019_06_40_54.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu İncik</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuIncik" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">46.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuIncik" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -385,9 +385,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/screen-shot-2015-05-18-at-180241_18_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu But Kemikli</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuButKemikli" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">54.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuButKemikli" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -399,9 +399,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-but-kemiksiz_24.09.2019_01_56_48.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu But Kemiksiz</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuButKemiksiz" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">64.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuButKemiksiz" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -413,11 +413,12 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-but-kemiksiz_24.09.2019_01_56_48.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu But Kemiksiz</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuButKemiksiz" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">64.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuButKemiksiz" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
-                        </div>
+                            
+                        </div>  
                     </form>
                 </div>
 
@@ -427,9 +428,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/screen-shot-2015-05-18-at-180342_18_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Kol Kemikli</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuKolKemikli" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">50.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuKolKemikli" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -441,9 +442,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/kirmizi-et1_20_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Döş Kemiksiz</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuDosKemiksiz" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">64.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuDosKemiksiz" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -455,9 +456,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/kuzu-bobrek_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Böbrek</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuBobrek" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">42.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuBobrek" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -469,9 +470,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/kuzu-bobrek-yatagi-kemikli-_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Böbrek Yatağı Kemiksiz</h3>
+                            <h3 class="h3yazilar" v-for="todo of BobrekYatagiKemiksiz" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">80.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of BobrekYatagiKemiksiz" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -483,9 +484,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kiyma27072019114845_01.10.2019_05_57_39.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Kıyma</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuKiyma" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">64.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuKiyma" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -498,9 +499,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-butun_03.10.2019_04_34_30.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Bütün</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuButun" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">46.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuButun" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -513,9 +514,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/screen-shot-2015-05-18-at-180106_18_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Kuşbaşı Kemiksiz</h3>
+                            <h3 class="h3yazilar"  v-for="todo of KuzuKusbasiKemiksiz" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">64.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuKusbasiKemiksiz" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -528,9 +529,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-gerdan_23.09.2019_06_05_02.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuzu Gerdan</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuzuGerdan" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">40.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuzuGerdan" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -542,9 +543,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/tavuk-incik-soslu_23_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Piliç İncik Soslu</h3>
+                            <h3 class="h3yazilar" v-for="todo of PilicIncikSoslu" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">32.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of PilicIncikSoslu" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -556,9 +557,9 @@
                             <img src="https://kofteciyusuf.com/uploads/pictures/thumb_pastirma_23.09.2019_06_16_39.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Pastırma</h3>
+                            <h3 class="h3yazilar" v-for="todo of Pastirma" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">98.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of Pastirma" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -570,9 +571,9 @@
                             <img src="https://kofteciyusuf.com/uploads/new_pictures/kuyrukyagi_21_thumb.jpg" alt class="img-fluid">
                         </a>
                         <div class="detaylar2" style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;">
-                            <h3 class="h3yazilar">Kuyruk Yağı</h3>
+                            <h3 class="h3yazilar" v-for="todo of KuyrukYagi" :key="todo.id">{{todo.urunismi}}</h3>
                             <span class="d-block">1 Kilogram</span>
-                            <em class="d-block">50.00 TL/KG</em>
+                            <em class="d-block" v-for="todo of KuyrukYagi" :key="todo.id">{{todo.Fiyat}}</em>
                             <button type="button" class="kucuk-buton">SATIN AL</button>
                         </div>
                     </form>
@@ -592,8 +593,6 @@ import Loading from "vue-loading-overlay";
 import "vue-loading-overlay/dist/vue-loading.css";
 import axios from "axios";
 
-const baseURL = "http://localhost:3000/Kofte";
-
 export default {
   
   data() {
@@ -601,8 +600,37 @@ export default {
       isLoading: false,
       fullPage: true,
       Kofte: [],
-      todocomment: ""
-      
+      KasapSucuk:[],
+      BatonSucuk: [],
+      DanaKiyma: [],
+      DanaKusbasi: [],
+      DanaBonfile: [],
+      DanaBiftek: [],
+      PilicKanatSoslu: [],
+      KuzuPirzola: [],
+      KuzuSis: [],
+      KuzuBeyti: [],
+      DanaAntrikot: [],
+      DanaNuar: [],
+      DanaKavurma: [],
+      DanaTranc: [],
+      KiymaCigKoftelik: [],
+      DanaKaburga: [],
+      KuzuKulbasti: [],
+      KuzuIncik: [],
+      KuzuButKemikli: [],
+      KuzuButKemiksiz: [],
+      KuzuKolKemikli: [],
+      KuzuDosKemiksiz: [],
+      KuzuBobrek: [],
+      BobrekYatagiKemiksiz: [],
+      KuzuKiyma: [],
+      KuzuButun:[],
+      KuzuKusbasiKemiksiz:[],
+      KuzuGerdan: [],
+      PilicIncikSoslu: [],
+      Pastirma: [],
+      KuyrukYagi: []
     };
   },
   
@@ -611,14 +639,303 @@ export default {
   },
   async created() {
     try {
-      const res = await axios.get(baseURL);
+      const res = await axios.get("http://localhost:3000/Kofte");
 
       this.Kofte = res.data;
+      
     } catch (e) {
       /* eslint-disable no-console */
       console.error(e);
     }
+    try {
+      const res = await axios.get("http://localhost:3000/KasapSucuk");
+
+      this.KasapSucuk = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/BatonSucuk");
+
+      this.BatonSucuk = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/DanaKiyma");
+
+      this.DanaKiyma = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/DanaKusbasi");
+
+      this.DanaKusbasi = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/DanaBonfile");
+
+      this.DanaBonfile = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/DanaBiftek");
+
+      this.DanaBiftek = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/PilicKanatSoslu");
+
+      this.PilicKanatSoslu = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/KuzuPirzola");
+
+      this.KuzuPirzola = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/KuzuSis");
+
+      this.KuzuSis = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/KuzuBeyti");
+
+      this.KuzuBeyti = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/DanaAntrikot");
+
+      this.DanaAntrikot = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/DanaNuar");
+
+      this.DanaNuar = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/DanaKavurma");
+
+      this.DanaKavurma = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/DanaTranc");
+
+      this.DanaTranc = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KiymaCigKoftelik");
+
+      this.KiymaCigKoftelik = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/DanaKaburga");
+
+      this.DanaKaburga = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuKulbasti");
+
+      this.KuzuKulbasti = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuIncik");
+
+      this.KuzuIncik = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuButKemikli");
+
+      this.KuzuButKemikli = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuButKemiksiz");
+
+      this.KuzuButKemiksiz = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuKolKemikli");
+
+      this.KuzuKolKemikli = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuDosKemiksiz");
+
+      this.KuzuDosKemiksiz = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuBobrek");
+
+      this.KuzuBobrek = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/BobrekYatagiKemiksiz");
+
+      this.BobrekYatagiKemiksiz = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuKiyma");
+
+      this.KuzuKiyma = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuButun");
+
+      this.KuzuButun = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuKusbasiKemiksiz");
+
+      this.KuzuKusbasiKemiksiz = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuzuGerdan");
+
+      this.KuzuGerdan = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/PilicIncikSoslu");
+
+      this.PilicIncikSoslu = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/Pastirma");
+
+      this.Pastirma = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/KuyrukYagi");
+
+      this.KuyrukYagi = res.data;
+      
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    
+    
+    
+    
+    
+    
+
+
   },
+ 
   methods: {
     doAjax() {
       this.isLoading = true;
@@ -627,19 +944,12 @@ export default {
         this.isLoading = false;
       }, 5000 );
     },
-    async addTodo() {
-      const res = await axios.post(baseURL, {
-        urunismi: this.todocomment,
-        Fiyat: this.todocomment
-      });
-
-      this.Kofte = [...this.Kofte, res.data];
-
-      this.todocomment = "";
-    }
+   
   }
 };
 </script>
+
+
 
 <style scoped>
 .genel-box {

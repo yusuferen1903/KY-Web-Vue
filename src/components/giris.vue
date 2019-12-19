@@ -6,30 +6,32 @@
           <!-- REQUİRED SAYESİNDE BOŞ KALINCA UYARI GELİYOR -->
           <div id="app">
             <input
+              v-model="input.username"
               type="text"
+              id="email"
               name="email"
               required
               autofocus="autofocus"
               class="inputs"
               placeholder="Eposta Adresiniz Yada Gsm No *"
-              v-model="todoName"
             />
           </div>
           <div id="app">
             <input
+              v-model="input.password"
+              id="password"
               type="password"
               name="password"
               required
               class="inputs"
               placeholder="Parolanız"
-              v-model="todoPassword"
             />
           </div>
 
           <!-- BUTON OLUŞTURMA -->
           <div class="girisbutonlar">
             <div class="giristurkir">
-              <button type="submit" @click="addTodo" class="giriskirmizi">Giriş Yap</button>
+              <button type="submit" v-on:click="login()" class="giriskirmizi">Giriş Yap</button>
             </div>
             <!-- UYE OL BUTONU BASINCA UYELİK SAYFASINA GİDİYOR -->
             <div class="giristurkir">
@@ -59,44 +61,55 @@
 
 <script>
 import axios from "axios";
-
-const baseURL = "http://localhost:3000/Kullanicilar";
-
 export default {
-  name: "app",
+  name: "Login",
   data() {
     return {
-      Kullanicilar: [],
-      todoName: "",
-      todoPassword: ""
+      input: {
+        username: "",
+        password: ""
+      },
+      Uyeler: [],
+      hatali: false
     };
   },
   async created() {
     try {
-      const res = await axios.get(baseURL);
+      const res = await axios.get("http://localhost:3000/Uyeler");
 
-      this.Kullanicilar = res.data;
+      this.Uyeler = res.data;
     } catch (e) {
-      /* eslint-disable no-console */
+      /* eslint-disable no-console */ 
       console.error(e);
     }
   },
   methods: {
-    async addTodo() {
-      const res = await axios.post(baseURL, {
-        KullaniciAdi: this.todoName,
-        Parola: this.todoPassword
-      });
-
-      this.Kullanicilar = [...this.Kullanicilar, res.data];
-
-      this.todoName = "";
-      this.todoPassword = "";
+    login() {
+      for (let i = 0; i < this.Uyeler.length; i++) {
+        if (this.input.username != "" && this.input.password != "") {
+          if (
+            this.input.username == this.Uyeler[i].Mail &&
+            this.input.password == this.Uyeler[i].Parola
+          ) {
+            alert("Giriş Başarılı Anasayfaya Yönlendiriliyorsunuz");
+            this.$emit("authenticated", true);
+            this.$router.replace({ path: "/Anasayfa" });
+            this.hatali = true;
+          }
+        }
+      }
+      if (this.input.username == "" && this.input.password == "")
+        /* eslint-disable no-console */
+        alert("Kullanıcı Adı Veya Şifre Boş Bırakılamaz");
+      if (this.input.username != "" && this.input.password != "") {
+        if (this.hatali == false) {
+          alert("Kullanıcı Adı Veya Şifre Hatalı");
+        }
+      }
     }
   }
 };
 </script>
-
 <style scoped>
 .girisarkaplan {
   background-image: url(https://kofteciyusuf.com/assets/dist/img/login-bg.jpg);

@@ -133,9 +133,9 @@
                   class="detaylar2"
                   style="border: 2px solid #f2f2f2; border-radius: 0 0 20px 20px;"
                 >
-                  <h3 class="h3yazilar">Kahvaltı Tabağı</h3>
+                  <h3 class="h3yazilar" v-for="todo of KahvaltiTabagi" :key="todo.id">{{todo.urunismi}}</h3>
                   <span class="d-block">KAHVALTI</span>
-                  <em class="d-block">16.00 TL</em>
+                  <em class="d-block" v-for="todo of KahvaltiTabagi" :key="todo.id">{{todo.Fiyat}}</em>
                   <button type="button" class="kucuk-buton">SATIN AL</button>
                 </div>
               </form>
@@ -153,9 +153,9 @@
                   class="detaylar2"
                   style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;"
                 >
-                  <h3 class="h3yazilar">Mercimek Çorbası</h3>
+                  <h3 class="h3yazilar" v-for="todo of MercimekCorbasi2" :key="todo.id">{{todo.urunismi}}</h3>
                   <span class="d-block">Çorba</span>
-                  <em class="d-block">6.00 TL</em>
+                  <em class="d-block" v-for="todo of MercimekCorbasi2" :key="todo.id">{{todo.Fiyat}}</em>
                   <button type="button" class="kucuk-buton">SATIN AL</button>
                 </div>
               </form>
@@ -173,9 +173,9 @@
                   class="detaylar2"
                   style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;"
                 >
-                  <h3 class="h3yazilar">Patates Kızartması</h3>
+                  <h3 class="h3yazilar" v-for="todo of PatatesKizartmasi" :key="todo.id">{{todo.urunismi}}</h3>
                   <span class="d-block">Patates</span>
-                  <em class="d-block">5.00 TL</em>
+                  <em class="d-block" v-for="todo of PatatesKizartmasi" :key="todo.id">{{todo.Fiyat}}</em>
                   <button type="button" class="kucuk-buton">SATIN AL</button>
                 </div>
               </form>
@@ -193,9 +193,9 @@
                   class="detaylar2"
                   style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;"
                 >
-                  <h3 class="h3yazilar">Yoğurt</h3>
+                  <h3 class="h3yazilar" v-for="todo of Yogurt" :key="todo.id">{{todo.urunismi}}</h3>
                   <span class="d-block">Yoğurt</span>
-                  <em class="d-block">5.00 TL</em>
+                  <em class="d-block" v-for="todo of Yogurt" :key="todo.id">{{todo.Fiyat}}</em>
                   <button type="button" class="kucuk-buton">SATIN AL</button>
                 </div>
               </form>
@@ -213,9 +213,9 @@
                   class="detaylar2"
                   style="border: 2px solid #f2f2f2; border-radius:0 0 20px 20px;"
                 >
-                  <h3 class="h3yazilar">İçli Köfte</h3>
+                  <h3 class="h3yazilar" v-for="todo of IcliKofte" :key="todo.id">{{todo.urunismi}}</h3>
                   <span class="d-block">İçli Köfte</span>
-                  <em class="d-block">2.00 TL</em>
+                  <em class="d-block" v-for="todo of IcliKofte" :key="todo.id">{{todo.Fiyat}}</em>
                   <button type="button" class="kucuk-buton">SATIN AL</button>
                 </div>
               </form>
@@ -230,17 +230,65 @@
 <script>
 import Loading from "vue-loading-overlay";
 import "vue-loading-overlay/dist/vue-loading.css";
+import axios from "axios";
 
 export default {
   data() {
     return {
       isLoading: false,
-      fullPage: true
+      fullPage: true,
+      KahvaltiTabagi: [],
+      MercimekCorbasi2: [],
+      PatatesKizartmasi: [],
+      Yogurt: [],
+      IcliKofte: [],
     };
   },
 
   components: {
     Loading
+  },
+   async created() {
+    try {
+      const res = await axios.get("http://localhost:3000/KahvaltiTabagi");
+
+      this.KahvaltiTabagi = res.data;
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/MercimekCorbasi2");
+
+      this.MercimekCorbasi2 = res.data;
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/PatatesKizartmasi");
+
+      this.PatatesKizartmasi = res.data;
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+    try {
+      const res = await axios.get("http://localhost:3000/Yogurt");
+
+      this.Yogurt = res.data;
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
+     try {
+      const res = await axios.get("http://localhost:3000/IcliKofte");
+
+      this.IcliKofte = res.data;
+    } catch (e) {
+      /* eslint-disable no-console */
+      console.error(e);
+    }
   },
   methods: {
     doAjax() {
